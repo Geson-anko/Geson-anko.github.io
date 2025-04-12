@@ -4,9 +4,12 @@ layout: default
 
 # GesonAnko (Yasuhiro SHIMOMURA)
 
-<img src="https://{{ site.github.repository_name }}/assets/images/thumb.jpg" width=80%>
+![イメージ]("/{{ site.github.repository_name }}/assets/images/thumb.jpg")
+<img src="/{{ site.github.repository_name }}/assets/images/thumb.jpg" width=80%>
 
 (Avatar: [**"ENTo"** made by ゆどのん工房](https://booth.pm/ja/items/5938569) )
+
+<img src=”https://geson-anko.github.io/assets/images/thumb.jpg” width=80%>
 
 ## Profile
 
@@ -20,8 +23,8 @@ layout: default
 
 - **Development**
 
-  - [<i class="fab fa-github"></i> GitHub (Geson-anko)](https://github.com/Geson-anko): 趣味で開発したものを置いています
-  - [<i class="fab fa-github"></i> GitHub (MLShukai)](https://github.com/MLShukai): チームでの開発や研究に用いるメンテナンスを行うものを置いています。
+  - [<i class="fab fa-github"></i> GitHub (Geson-anko)](https://github.com/Geson-anko): 趣味で開発したものを雑多に置いています
+  - [<i class="fab fa-github"></i> GitHub (MLShukai)](https://github.com/MLShukai): チームでの開発や研究に用いるものを置いています。
 
 - **Blogs**
 
