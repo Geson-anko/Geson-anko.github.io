@@ -48,7 +48,7 @@ layout: default
 
 ### マシンラーニング集会 通称 "ML 集会"
 
-[VRChat](https://hello.vrchat.com)における機械学習 (Machine Learning, ML) のコミュニティかつイベントです。不定期ではありますが LT 会も開催しており、機械学習の最新の話題や知見が飛び交います。過去アーカイブは [YouTube](https://www.youtube.com/@vrcml8211) にて公開しています。
+2022 年 6 月に発足した[VRChat](https://hello.vrchat.com)における機械学習 (Machine Learning, ML) のコミュニティかつイベントです。不定期ではありますが LT 会も開催しており、機械学習の最新の話題や知見が飛び交います。過去アーカイブは [YouTube](https://www.youtube.com/@vrcml8211) にて公開しています。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">毎週水曜21時半よりVRChatにてイベントを開催しております！<br> <br>ML集会とは？ <br>ML(機械学習)関連で情報を共有しながらだべりつつ、MLを心から親しみ、楽しむ会です！ ぜひお気軽におこしください〜！<br> VRCグループ <a href="https://t.co/p3Gn6wtVIw">https://t.co/p3Gn6wtVIw</a><br>Discord <a href="https://t.co/2p18JjGKmO">https://t.co/2p18JjGKmO</a> <a href="https://twitter.com/hashtag/ML%E9%9B%86%E4%BC%9A?src=hash&amp;ref_src=twsrc%5Etfw">#ML集会</a> <a href="https://t.co/5x0GWh8jG2">pic.twitter.com/5x0GWh8jG2</a></p>&mdash; マシンラーニング集会 通称 ML集会 【VRChat PC/Quest対応】 (@VRC_ML_hangout) <a href="https://twitter.com/VRC_ML_hangout/status/1779863235988242925?ref_src=twsrc%5Etfw">April 15, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -72,8 +72,6 @@ P-AMI\<Q>の研究・開発には ML 集会や様々な場所で出会った多�
 _2024/03:_ [**仙台高等専門学校 校長賞 (学業成績優秀賞)**](https://{{ site.github.repository_name }}/assets/pdfs/PrincipalAward.pdf)
 
 _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 ポスター発表 最優秀賞**](https://{{ site.github.repository_name }}/assets/pdfs/MatsuoPoster.pdf)
-
-<iframe width="480" height="280" src="https://www.youtube.com/embed/YccD0yoKaLo?si=hq4ZTNqKB4tuDpL3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Direction
 
@@ -103,12 +101,23 @@ _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 �
 ### Contributions
 
 - [**inputtino の Python バインディング**](https://github.com/games-on-whales/inputtino?tab=readme-ov-file#using-the-python-bindings): Linux 上の仮想キーボードやマウスを作成し、カーネルレベルの制御が可能な C++ライブラリの **フル Python バインディング** を作成しました。
+- [**Typst 版バーチャル学会論文用紙テンプレート**](https://github.com/Geson-anko/vconf24_template_typst): バーチャル学会 2024 で使用可能な論文テンプレートのうち、 [Typst](https://typst.app) を使用したものを用意させていただきました。
 
 ## Researches
 
-<div class="section">
-研究内容や発表論文、研究成果についての詳細な情報を提供します。
-</div>
+- _2024/12:_ [**ソーシャル VR 空間に適用可能な好奇心ベースの自律機械知能**](https://vconf.org/2024/poster/d2/#3) - JStage: <https://doi.org/10.57460/vconf.2024.0_19>
+<iframe width="320" height="200" src="https://www.youtube.com/embed/n7Pak2mvY_U?si=76sP10chX7szdwYV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- _2023/12:_ [**VRChat 上における好奇心ベースの自律機械知能の実装**](https://sites.google.com/view/virtualconference2023/schedule/1st-day/1st-day-poster/B2?authuser=0#h.xn0pqkcxuw5p) - JStage: <https://doi.org/10.57460/vconf.2023.0_81>
+<iframe width="320" height="200" src="https://www.youtube.com/embed/5_ELaBQPLIY?si=BuV7hQ4reuyzXG0O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- _2023/05:_ [**AutoOshaberi - Audio2Speech - 「発声器官モデルと Dreamer を用いた任意音響の模倣音声生成手法」**](https://{{ site.github.repository_name }}/assets/pdfs/AutoOshaberi.pdf)
+
+<iframe width="320" height="200" src="https://www.youtube.com/embed/YccD0yoKaLo?si=hq4ZTNqKB4tuDpL3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- _2022/06:_ [**意識のある機械**](https://qiita.com/GesonAnko/items/8f40428f3019117e8e8d)
+これは私の原点、 **J.A.R.V.I.S.** を作ろうとした、軌跡です。
+<iframe width="320" height="200" src="https://www.youtube.com/embed/qH0fprOISfo?si=9p2fCwSr_pwMFYIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## History
 
