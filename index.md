@@ -4,9 +4,7 @@ layout: default
 
 # GesonAnko (Yasuhiro SHIMOMURA)
 
-<div class="thumbnails">
-  <img src="assets/images/thumb.jpg" alt="プロジェクト1" class="thumbnail" width=80%>
-</div>
+<img src="assets/images/thumb.jpg" width=80%>
 
 (Avatar: [**"ENTo"** made by ゆどのん工房](https://booth.pm/ja/items/5938569) )
 
