@@ -4,12 +4,9 @@ layout: default
 
 # GesonAnko (Yasuhiro SHIMOMURA)
 
-![イメージ]("https://{{ site.github.repository_name }}/assets/images/thumb.jpg")
-<img src="/{{ site.github.repository_name }}/assets/images/thumb.jpg" width=80%>
+<img src="/assets/images/thumb.jpg" width=80%>
 
 (Avatar: [**"ENTo"** made by ゆどのん工房](https://booth.pm/ja/items/5938569) )
-
-<img src=”https://geson-anko.github.io/assets/images/thumb.jpg” width=80%>
 
 ## Profile
 
