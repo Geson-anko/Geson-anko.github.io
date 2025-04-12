@@ -30,6 +30,9 @@ layout: default
   - [<i class="fas fa-book"></i> Zenn](https://zenn.dev/gesonanko): 割とマニアックなところまで書きます。
   - [<i class="far fa-sticky-note"></i> note](https://note.com/gesonanko): VRChat や詩的な文章、ターゲットが技術者ではない場合に書きます。
 
+- **Presentation**
+  - [<i class="fas fa-tv"></i> Speaker Deck](https://speakerdeck.com/gesonanko#): 講演やプレゼンテーション資料を公開しています
+
 - **Social**
 
   - [<i class="fab fa-twitter"></i> X (Twitter)](https://x.com/GesonAnkoVR): 雑多に呟きます。
@@ -45,7 +48,7 @@ layout: default
 
 注目のプロジェクトやアクティビティをご紹介します。
 
-## Awards
+## Awards🏆 
 
 *2024/03:* [**仙台高等専門学校 校長賞 (学業成績優秀賞)**](https://{{ site.github.repository_name }}/assets/pdfs/PrincipalAward.pdf)
 
