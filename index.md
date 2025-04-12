@@ -119,7 +119,7 @@ _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 �
 
 - _2023/05:_ [**AutoOshaberi - Audio2Speech - 「発声器官モデルと Dreamer を用いた任意音響の模倣音声生成手法」**](https://{{ site.github.repository_name }}/assets/pdfs/AutoOshaberi.pdf)
 
-<iframe width="320" height="200" src="https://www.youtube.com/embed/YccD0yoKaLo?si=hq4ZTNqKB4tuDpL3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="320" height="200" src="https://www.youtube.com/embed/YccD0yoKaLo?si=hq4ZTNqKB4tuDpL3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - _2022/06:_ [**意識のある機械**](https://qiita.com/GesonAnko/items/8f40428f3019117e8e8d)
 
