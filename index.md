@@ -4,10 +4,10 @@ layout: default
 
 # GesonAnko (Yasuhiro SHIMOMURA)
 
-<!--
-<img src="{{ site.baseurl }}/assets/images/thumb.jpg" width=80%>
 
-(Avatar: [**"ENTo"** made by ゆどのん工房](https://booth.pm/ja/items/5938569) ) -->
+<img src="https://{{ site.github.repository_name }}/assets/images/thumb.jpg" width="80%">
+
+(Avatar: [**"ENTo"** made by ゆどのん工房](https://booth.pm/ja/items/5938569) )
 
 ## Profile
 
@@ -47,9 +47,7 @@ layout: default
 
 ## Awards
 
-<div class="section">
-これまでに受賞した賞やコンテスト実績などを紹介します。
-</div>
+
 
 ## Direction
 
