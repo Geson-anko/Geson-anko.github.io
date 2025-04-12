@@ -71,14 +71,14 @@ _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 �
 - [**pamiq-io**](https://github.com/MLShukai/pamiq-io): 映像や音声の入出力を担当するライブラリ。
 - [**pamiq-recorder**](https://github.com/MLShukai/pamiq-recorder): 観測データ収集と行動ログ記録のためのツール群。
 
-[**ROS2**](https://www.ros.org)
+### ROS2
 
 - [**ROS2 NDArray Messages**](https://github.com/Geson-anko/numpy_ndarray_msgs): 多次元配列を効率的に送受信するためのメッセージライブラリ。機械学習と連携したロボティクスシステムに不可欠なデータ構造をサポートします。
   - Python utility: [`ros2-ndarray-msg-utils`](https://pypi.org/project/ros2-ndarray-msg-utils/)
 - [**ROS2 UV Template**](https://github.com/Geson-anko/ros2_uv_template): [**uv**](https://docs.astral.sh/uv/)を用いた最新の ROS2 プロジェクトテンプレート。依存関係管理と開発環境設定を効率化します。
   - [解説ブログはこちら](https://qiita.com/GesonAnko/items/510eeade1f8ada302b9b)
 
-**Python**
+### Python
 
 - [**Python UV Template**](https://github.com/Geson-anko/python-uv-template): Python プロジェクトのプロフェッショナルな開発環境テンプレート。テスト、型チェック、CI/CD など、品質を担保するための一連のツールを統合しています。
 
