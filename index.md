@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Portfolio
+# GesonAnko (Yasuhiro SHIMOMURA)
 
 <!--
 <img src="{{ site.baseurl }}/assets/images/thumb.jpg" width=80%>
