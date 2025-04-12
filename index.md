@@ -2,8 +2,9 @@
 layout: default
 ---
 
-# GesonAnko (Yasuhiro SHIMOMURA)
-<!-- 
+# Portfolio
+
+<!--
 <img src="{{ site.baseurl }}/assets/images/thumb.jpg" width=80%>
 
 (Avatar: [**"ENTo"** made by ゆどのん工房](https://booth.pm/ja/items/5938569) ) -->
@@ -34,11 +35,11 @@ layout: default
   - [<i class="fab fa-twitter"></i> X (Twitter)](https://x.com/GesonAnkoVR): 雑多に呟きます。
 
 - **Discord**
-  - [<i class="fab fa-discord"></i> ML 集会](https://discord.gg/bDW3Xhj6f7): 私の活動する Discord サーバです。チームでの開発などもここで行っていることが多いです。
+  - [<i class="fab fa-discord"></i> ML 集会](https://discord.gg/bDW3Xhj6f7): 私の活動する Discord サーバです。チームでの開発などもここで行っています。
 
 ### Contacts
 
-- Email (仕事用): shimomura.yasuhiro@gop.co.jp
+- Email (仕事用): **<shimomura.yasuhiro@gop.co.jp>**
 
 ## Pick Ups!
 
