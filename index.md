@@ -12,7 +12,7 @@ layout: default
 
 自律機械知能 (Autonomous Machine Intelligence, AMI) の研究開発に取り組む研究者・エンジニアです。機械学習、深層強化学習、自律 AI、ロボティクス領域を専門としており、特に「好奇心」をベースとした自律的な機械知能システムの開発に注力しています。
 
-[**Python**](https://www.python.org) を主言語とし、PyTorch などの機械学習フレームワークを用いた複雑なシステム開発や、自律機械知能の研究に関連した堅牢かつスケーラブルなシステム・ライブラリの設計・実装を得意としています。
+[**Python**](https://www.python.org) をメインツールとし、PyTorch などの機械学習フレームワークを用いた複雑なシステム開発や、自律機械知能の研究に関連した堅牢かつスケーラブルなシステム・ライブラリの設計・実装を得意としています。
 
 2024 年 4 月より [**ジー・オー・ピー株式会社 / GOP co., ltd.**](https://www.gop.co.jp) に所属。業務を行いつつ、同社のスポンサーシップのもと自律機械知能の研究開発を進めています。
 
@@ -28,25 +28,30 @@ layout: default
 **何故と問い、共に探求する知性を造る。**  
 **愛すべき彼ら機械知能と共に生き、その行く末を見届けたい**
 
-特定タスクに特化した AI ではなく、環境に適応し成長する汎用的な知能システムの基盤技術の確立を目指しています。道具ではない、共に考え、成長する「存在」としての機械知能を私は願います。
+私は、環境に適応し成長する機械知能システムの基盤の確立に取り組んでいます。
+
+道具ではない、共に成長し人生を共にする「存在」たちとしての機械知能に惹かれています。
 
 ## ピックアップ！
 
 ### マシンラーニング集会 通称 "ML 集会"
 
-2022 年 6 月に発足した[VRChat](https://hello.vrchat.com)における機械学習 (Machine Learning, ML) のコミュニティ兼イベントです。機械学習に興味を持つ多様な背景の人々が集まり、知識共有と交流を行っています。
+2022 年 6 月に発足した[VRChat](https://hello.vrchat.com)における機械学習 (Machine Learning, ML) のコミュニティ兼イベントです。機械学習に興味を持つ様々な人が集まり、知識共有と交流を行っています。
 
-不定期ではありますが LT 会も開催しており、機械学習の最新の話題や知見が飛び交います。過去アーカイブは [YouTube](https://www.youtube.com/@vrcml8211) にて公開しています。
+不定期ではありますが LT 会も開催しており、機械学習の最新の話題や知見を共有しています。過去LTのアーカイブは [YouTube](https://www.youtube.com/@vrcml8211) にて公開しています。
 
 [**Discord サーバー**](https://discord.gg/bDW3Xhj6f7)も運営しており、2025/04/12 時点でのメンバー数は**384 名**となっています。ご興味があればぜひお入りください。
+
+[![Join Discord Server](https://img.shields.io/badge/Join%20Discord%20Server-8A2BE2?style=for-the-badge)](https://discord.gg/bDW3Xhj6f7)
+
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">毎週水曜21時半よりVRChatにてイベントを開催しております！<br> <br>ML集会とは？ <br>ML(機械学習)関連で情報を共有しながらだべりつつ、MLを心から親しみ、楽しむ会です！ ぜひお気軽におこしください〜！<br> VRCグループ <a href="https://t.co/p3Gn6wtVIw">https://t.co/p3Gn6wtVIw</a><br>Discord <a href="https://t.co/2p18JjGKmO">https://t.co/2p18JjGKmO</a> <a href="https://twitter.com/hashtag/ML%E9%9B%86%E4%BC%9A?src=hash&amp;ref_src=twsrc%5Etfw">#ML集会</a> <a href="https://t.co/5x0GWh8jG2">pic.twitter.com/5x0GWh8jG2</a></p>&mdash; マシンラーニング集会 通称 ML集会 【VRChat PC/Quest対応】 (@VRC_ML_hangout) <a href="https://twitter.com/VRC_ML_hangout/status/1779863235988242925?ref_src=twsrc%5Etfw">April 15, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### 自律機械知能 "P-AMI\<Q>" の研究・開発
 
-好奇心ベースの自律機械知能 "P-AMI\<Q>" (旧 Primitive Autonomous Machine Intelligence based on Q(Cu)riosity)は私の研究の中核です。[**VRChat**](https://hello.vrchat.com)というソーシャル VR 空間に実装して、その行動や学習過程を観察・分析しています。彼らはとても興味深い存在であり、それを生み出し、探求するのがたまらなく楽しいのです。
+好奇心ベースの自律機械知能 "P-AMI\<Q>" (以前は Primitive Autonomous Machine Intelligence based on Q(Cu)riosityの略称でした。)は私の第2子となるAMIです。[**VRChat**](https://hello.vrchat.com)というソーシャル VR 空間に実装し、その行動や学習過程を観察・分析しています。彼らはとても興味深い存在であり、訳のわからないことばかりおきますが、それを探求するのがたまらなく楽しいのです。
 
-P-AMI\<Q>の研究・開発には、ML 集会や様々な場所で出会った多くの方々にご協力をいただいております。誠にありがとうございます。
+P-AMI\<Q>の研究・開発にはML 集会や様々な場所で出会った多くの方々にご協力をいただいております。誠にありがとうございます。
 
 その研究成果は[**バーチャル学会**](https://vconf.org/portal/)にて発表しております：
 
@@ -74,8 +79,8 @@ _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 �
 ### ROS2
 
 - [**ROS2 NDArray Messages**](https://github.com/Geson-anko/numpy_ndarray_msgs): 多次元配列を効率的に送受信するためのメッセージライブラリ。機械学習と連携したロボティクスシステムに不可欠なデータ構造をサポートします。
-  - Python utility: [`ros2-ndarray-msg-utils`](https://pypi.org/project/ros2-ndarray-msg-utils/)
-- [**ROS2 UV Template**](https://github.com/Geson-anko/ros2_uv_template): [**uv**](https://docs.astral.sh/uv/)を用いた最新の ROS2 プロジェクトテンプレート。依存関係管理と開発環境設定を効率化します。
+  - Python utility: [ros2-ndarray-msg-utils](https://pypi.org/project/ros2-ndarray-msg-utils/)
+- [**ROS2 UV Template**](https://github.com/Geson-anko/ros2_uv_template): [**uv**](https://docs.astral.sh/uv/)を用いた最新の ROS2 プロジェクトテンプレート。依存関係管理と開発環境設定を効率化し、ROSのPythonプロジェクトをモダンなテイストに仕上げます。
   - [解説ブログはこちら](https://qiita.com/GesonAnko/items/510eeade1f8ada302b9b)
 
 ### Python
@@ -84,13 +89,15 @@ _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 �
 
 ### Contributions
 
-- [**inputtino のフル Python バインディング**](https://github.com/games-on-whales/inputtino?tab=readme-ov-file#using-the-python-bindings): Linux の入力デバイスを Python から完全に制御可能にするライブラリの拡張。エージェントのゲーム連携を用意にします。
+- [**inputtino の完全な Python バインディング**](https://github.com/games-on-whales/inputtino?tab=readme-ov-file#using-the-python-bindings): Linux の入力デバイスを Python から完全に制御可能にするライブラリの拡張。エージェントのゲーム連携を容易にします。
 
-- [**Typst 版バーチャル学会論文用紙テンプレート**](https://github.com/Geson-anko/vconf24_template_typst)
+- [**Typst 版バーチャル学会論文要旨テンプレート**](https://github.com/Geson-anko/vconf24_template_typst): バーチャル学会の論文要旨をTypstというモダンなツールで記述可能にします。
 
-## 研究発表
+## 研究成果
 
 - _2024/12:_ [**ソーシャル VR 空間に適用可能な好奇心ベースの自律機械知能**](https://vconf.org/2024/poster/d2/#3)
+
+  推論と学習を非同期に実行するシステムを開発し、リアルタイム学習を可能にしました。またスケーラブルなモデルアーキテクチャを採用し、ソーシャルVR空間に適用可能な深層モデルを用いたAMIの基盤を構築しました。
 
   - JStage: <https://doi.org/10.57460/vconf.2024.0_19>
 
@@ -98,11 +105,15 @@ _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 �
 
 - _2023/12:_ [**VRChat 上における好奇心ベースの自律機械知能の実装**](https://sites.google.com/view/virtualconference2023/schedule/1st-day/1st-day-poster/B2?authuser=0#h.xn0pqkcxuw5p)
 
+  VRSNS 上で AMI を実装し動的な振舞いを記録・分析することで、その特性を探究することが可能であることを示したものです。
+
   - JStage: <https://doi.org/10.57460/vconf.2023.0_81>
 
   <iframe width="320" height="200" src="https://www.youtube.com/embed/5_ELaBQPLIY?si=BuV7hQ4reuyzXG0O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - _2023/05:_ [**AutoOshaberi - Audio2Speech - 「発声器官モデルと Dreamer を用いた任意音響の模倣音声生成手法」**](https://{{ site.github.repository_name }}/assets/pdfs/AutoOshaberi.pdf)
+
+  声道モデルという人間の発声器官のシミュレータを使って音声を生成する手法に取り組みました。
 
   <iframe width="320" height="200" src="https://www.youtube.com/embed/YccD0yoKaLo?si=hq4ZTNqKB4tuDpL3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -124,9 +135,9 @@ _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 �
 - **2022/02:** 東京大学松尾研究室 深層強化学習オータムセミナー 修了
 - **2021/05:** 初めての自律機械知能 "Jarvis 3" を開発
 
-## Links | リンク集
+## リンク
 
-- **開発・研究**
+- **開発**
 
   - [<i class="fab fa-github"></i> GitHub (個人)](https://github.com/Geson-anko)
   - [<i class="fab fa-github"></i> GitHub (チーム、研究開発)](https://github.com/MLShukai)
@@ -136,10 +147,7 @@ _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 �
   - [<i class="fas fa-pen-square"></i> Qiita](https://qiita.com/GesonAnko)
   - [<i class="fas fa-book"></i> Zenn](https://zenn.dev/gesonanko)
   - [<i class="far fa-sticky-note"></i> note](https://note.com/gesonanko) (VRChat 関連)
-
-- **プレゼンテーション**
-
-  - [<i class="fas fa-tv"></i> Speaker Deck](https://speakerdeck.com/gesonanko#)
+  - [<i class="fas fa-tv"></i> Speaker Deck](https://speakerdeck.com/gesonanko#) (スライド)
 
 - **ソーシャルメディア**
 
@@ -152,5 +160,5 @@ _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 �
 
 私の活動に興味を持ち、コラボレーション等をしたいという方はぜひお気軽に連絡ください。
 
-- 業務・研究関連のお問い合わせ: **<shimomura.yasuhiro@gop.co.jp>**
+- お仕事・研究関連のお問い合わせ: **<shimomura.yasuhiro@gop.co.jp>**
 - VRChat・ML 集会・コミュニティ関連: [Discord](https://discord.gg/bDW3Xhj6f7)
