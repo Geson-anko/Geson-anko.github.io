@@ -105,19 +105,27 @@ _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 �
 
 ## Researches
 
-- _2024/12:_ [**ソーシャル VR 空間に適用可能な好奇心ベースの自律機械知能**](https://vconf.org/2024/poster/d2/#3) - JStage: <https://doi.org/10.57460/vconf.2024.0_19>
-<iframe width="320" height="200" src="https://www.youtube.com/embed/n7Pak2mvY_U?si=76sP10chX7szdwYV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+- _2024/12:_ [**ソーシャル VR 空間に適用可能な好奇心ベースの自律機械知能**](https://vconf.org/2024/poster/d2/#3)
 
-- _2023/12:_ [**VRChat 上における好奇心ベースの自律機械知能の実装**](https://sites.google.com/view/virtualconference2023/schedule/1st-day/1st-day-poster/B2?authuser=0#h.xn0pqkcxuw5p) - JStage: <https://doi.org/10.57460/vconf.2023.0_81>
-<iframe width="320" height="200" src="https://www.youtube.com/embed/5_ELaBQPLIY?si=BuV7hQ4reuyzXG0O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  - JStage: <https://doi.org/10.57460/vconf.2024.0_19>
+
+  <iframe width="320" height="200" src="https://www.youtube.com/embed/n7Pak2mvY_U?si=76sP10chX7szdwYV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- _2023/12:_ [**VRChat 上における好奇心ベースの自律機械知能の実装**](https://sites.google.com/view/virtualconference2023/schedule/1st-day/1st-day-poster/B2?authuser=0#h.xn0pqkcxuw5p)
+
+  - JStage: <https://doi.org/10.57460/vconf.2023.0_81>
+
+  <iframe width="320" height="200" src="https://www.youtube.com/embed/5_ELaBQPLIY?si=BuV7hQ4reuyzXG0O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - _2023/05:_ [**AutoOshaberi - Audio2Speech - 「発声器官モデルと Dreamer を用いた任意音響の模倣音声生成手法」**](https://{{ site.github.repository_name }}/assets/pdfs/AutoOshaberi.pdf)
 
 <iframe width="320" height="200" src="https://www.youtube.com/embed/YccD0yoKaLo?si=hq4ZTNqKB4tuDpL3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - _2022/06:_ [**意識のある機械**](https://qiita.com/GesonAnko/items/8f40428f3019117e8e8d)
-これは私の原点、 **J.A.R.V.I.S.** を作ろうとした、軌跡です。
-<iframe width="320" height="200" src="https://www.youtube.com/embed/qH0fprOISfo?si=9p2fCwSr_pwMFYIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  これは私の原点、 **J.A.R.V.I.S.** を作ろうとした、軌跡です。
+
+  <iframe width="320" height="200" src="https://www.youtube.com/embed/qH0fprOISfo?si=9p2fCwSr_pwMFYIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## History
 
