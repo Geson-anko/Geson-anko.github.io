@@ -47,9 +47,11 @@ layout: default
 
 ## Awards
 
-*2024/03*: [**仙台高等専門学校 校長賞 (学業成績優秀賞)**](https://{{ site.github.repository_name }}/assets/pdfs/PrincipalAward.pdf)
+*2024/03:* [**仙台高等専門学校 校長賞 (学業成績優秀賞)**](https://{{ site.github.repository_name }}/assets/pdfs/PrincipalAward.pdf)
 
-*2023/05*: [**集中講座 世界モデルと知能2022 最終課題発表会 ポスター発表 最優秀賞**](https://{{ site.github.repository_name }}/assets/pdfs/MatsuoPoster.pdf)
+*2023/05:* [**集中講座 世界モデルと知能2022 最終課題発表会 ポスター発表 最優秀賞**](https://{{ site.github.repository_name }}/assets/pdfs/MatsuoPoster.pdf)
+
+<iframe width="480" height="280" src="https://www.youtube.com/embed/YccD0yoKaLo?si=hq4ZTNqKB4tuDpL3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Direction
 
