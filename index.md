@@ -92,6 +92,8 @@ _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 �
 
 - [**Typst 版バーチャル学会論文要旨テンプレート 🔗**](https://github.com/Geson-anko/vconf24_template_typst): バーチャル学会の論文要旨を Typst というモダンなツールで記述可能にします。
 
+- [**soundfile の型ヒントの実装 🔗**](https://github.com/bastibe/python-soundfile/pull/462): 音声ファイルの IO ライブラリに型ヒントを追加し、型システムを導入したプログラミングを可能にします。
+
 ## 研究成果
 
 - _2024/12:_ [**ソーシャル VR 空間に適用可能な好奇心ベースの自律機械知能 🔗**](https://vconf.org/2024/poster/d2/#3)
