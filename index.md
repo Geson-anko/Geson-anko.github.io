@@ -54,6 +54,7 @@ P-AMI\<Q>の研究・開発には ML 集会や様々な場所で出会った多�
 
 その研究成果は[**バーチャル学会**](https://vconf.org/portal/)にて発表しております：
 
+- RSJ2025: [**PAMIQ Core: リアルタイム継続学習のための⾮同期推論・学習フレームワーク**](https://{{ site.github.repository_name }}/assets/pdfs/pamiq-core-paper.rsj2025.pdf)
 - バーチャル学会 2024: [**ソーシャル VR 空間に適用可能な好奇心ベースの自律機械知能 🔗**](https://vconf.org/2024/poster/d2/#3)
 - バーチャル学会 2023: [**VRChat 上における好奇心ベースの自律機械知能の実装 🔗**](https://sites.google.com/view/virtualconference2023/schedule/1st-day/1st-day-poster/B2?authuser=0#h.xn0pqkcxuw5p)
 
