@@ -71,8 +71,10 @@ _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 �
 
 好奇心ベースの自律機械知能「P-AMI\<Q>」を実現するための統合システム群：
 
-- [**pamiq-core 🔗**](https://github.com/MLShukai/pamiq-core): 推論と学習のリアルタイム非同期処理を実現し、世界モデルとポリシーの継続的更新を可能にします。
+- [**pamiq-core 🔗**](https://github.com/MLShukai/pamiq-core): 推論と学習のリアルタイム非同期処理を実現し、機械学習モデルの継続的学習を可能にします。（[**第 43 回日本ロボット学会学術講演会（RSJ2025）**](https://ac.rsj-web.org/2025/)で発表しました！）
 - [**pamiq-io 🔗**](https://github.com/MLShukai/pamiq-io): 映像や音声の入出力を担当するライブラリ。
+  - [**pamiq-vrchat 🔗**](https://github.com/MLShukai/pamiq-vrchat): pamiq-core および pamiq ー io を用いた VRChat 用インターフェイス、PAMIQ のサンプル実装。
+    <iframe width="320" height="200" src="https://www.youtube.com/embed/hYjet0v17rY?si=KeSHOR9LG-o-j5Ff" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 - [**pamiq-recorder 🔗**](https://github.com/MLShukai/pamiq-recorder): 観測データ収集と行動ログ記録のためのツール群。
 
 ### ROS2
@@ -95,6 +97,14 @@ _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 �
 - [**soundfile の型ヒントの実装 🔗**](https://github.com/bastibe/python-soundfile/pull/462): 音声ファイルの IO ライブラリに型ヒントを追加し、型システムを導入したプログラミングを可能にします。
 
 ## 研究成果
+
+- _2025/09:_ [**PAMIQ Core: リアルタイム継続学習のための⾮同期推論・学習フレームワーク**](https://{{ site.github.repository_name }}/assets/pdfs/pamiq-core-paper.rsj2025.pdf)
+
+  機械学習の推論と学習を非同期実行するシステムを汎用的かつ再利用可能な形で公開しました。リアルタイム性保つ同期システムを実装、かつ継続学習のための運用機能など、現実的な世界で動的に適応する機械知能を実現するためのツールが揃っています。
+
+  第 43 回日本ロボット学会学術講演会（RSJ2025）での発表資料
+
+  <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/82fd86ef13324398ae5635200dcc4019" title="【RSJ2025】PAMIQ Core: リアルタイム継続学習のための⾮同期推論・学習フレームワーク" allowfullscreen="true" style="border: 0px; background: padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
 
 - _2024/12:_ [**ソーシャル VR 空間に適用可能な好奇心ベースの自律機械知能 🔗**](https://vconf.org/2024/poster/d2/#3)
 
