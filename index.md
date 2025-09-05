@@ -75,7 +75,7 @@ _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 �
 - [**pamiq-core 🔗**](https://github.com/MLShukai/pamiq-core): 推論と学習のリアルタイム非同期処理を実現し、機械学習モデルの継続的学習を可能にします。（[**第 43 回日本ロボット学会学術講演会（RSJ2025）**](https://ac.rsj-web.org/2025/)で発表しました！）
 - [**pamiq-io 🔗**](https://github.com/MLShukai/pamiq-io): 映像や音声の入出力を担当するライブラリ。
 
-  - [**pamiq-vrchat 🔗**](https://github.com/MLShukai/pamiq-vrchat): pamiq-core および pamiq ー io を用いた VRChat 用インターフェイス、PAMIQ のサンプル実装。
+  - [**pamiq-vrchat 🔗**](https://github.com/MLShukai/pamiq-vrchat): pamiq-core および pamiq-io を用いた VRChat 用インターフェイス、PAMIQ のサンプル実装。
 
     <iframe width="320" height="200" src="https://www.youtube.com/embed/hYjet0v17rY?si=KeSHOR9LG-o-j5Ff" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
