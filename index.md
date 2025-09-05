@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# GesonAnko (Yasuhiro SHIMOMURA)
+# GesonAnko (Yasuhiro SHIMOMURA / 下村晏弘)
 
 <img src="https://{{ site.github.repository_name }}/assets/images/thumb.jpg" width="80%">
 
