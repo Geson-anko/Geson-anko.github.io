@@ -107,7 +107,7 @@ _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 �
 
   第 43 回日本ロボット学会学術講演会（RSJ2025）での発表資料
 
-  <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/82fd86ef13324398ae5635200dcc4019" title="【RSJ2025】PAMIQ Core: リアルタイム継続学習のための⾮同期推論・学習フレームワーク" allowfullscreen="true" style="border: 0px; background: padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 400 / 225;" data-ratio="1.7777777777777777"></iframe>
+  <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/82fd86ef13324398ae5635200dcc4019" title="【RSJ2025】PAMIQ Core: リアルタイム継続学習のための⾮同期推論・学習フレームワーク" allowfullscreen="true" style="border: 0px; background: padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 70%; height: auto; aspect-ratio: 400 / 225;" data-ratio="1.7777777777777777"></iframe>
 
 - _2024/12:_ [**ソーシャル VR 空間に適用可能な好奇心ベースの自律機械知能 🔗**](https://vconf.org/2024/poster/d2/#3)
 
