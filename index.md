@@ -54,7 +54,7 @@ P-AMI\<Q>の研究・開発には ML 集会や様々な場所で出会った多�
 
 その研究成果は[**バーチャル学会**](https://vconf.org/portal/)にて発表しております：
 
-- RSJ2025: [**PAMIQ Core: リアルタイム継続学習のための⾮同期推論・学習フレームワーク**](https://{{ site.github.repository_name }}/assets/pdfs/pamiq-core-paper.rsj2025.pdf)
+- RSJ2025: [**PAMIQ Core: リアルタイム継続学習のための⾮同期推論・学習フレームワーク 📃**](https://{{ site.github.repository_name }}/assets/pdfs/pamiq-core-paper.rsj2025.pdf)
 - バーチャル学会 2024: [**ソーシャル VR 空間に適用可能な好奇心ベースの自律機械知能 🔗**](https://vconf.org/2024/poster/d2/#3)
 - バーチャル学会 2023: [**VRChat 上における好奇心ベースの自律機械知能の実装 🔗**](https://sites.google.com/view/virtualconference2023/schedule/1st-day/1st-day-poster/B2?authuser=0#h.xn0pqkcxuw5p)
 
@@ -102,7 +102,7 @@ _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 �
 
 ## 研究成果
 
-- _2025/09:_ [**PAMIQ Core: リアルタイム継続学習のための⾮同期推論・学習フレームワーク**](https://{{ site.github.repository_name }}/assets/pdfs/pamiq-core-paper.rsj2025.pdf)
+- _2025/09:_ [**PAMIQ Core: リアルタイム継続学習のための⾮同期推論・学習フレームワーク 📃**](https://{{ site.github.repository_name }}/assets/pdfs/pamiq-core-paper.rsj2025.pdf)
 
   機械学習の推論と学習を非同期実行するシステムを汎用的かつ再利用可能な形で公開しました。リアルタイム性保つ同期システムを実装、かつ継続学習のための運用機能など、現実的な世界で動的に適応する機械知能を実現するためのツールが揃っています。
 
