@@ -4,7 +4,7 @@ layout: default
 
 # GesonAnko (Yasuhiro SHIMOMURA / 下村晏弘)
 
-<img src="https://{{ site.github.repository_name }}/assets/images/thumb.jpg" width="80%">
+<img src="https://{{ site.github.repository_name }}/assets/images/thumbnail.png" width="80%">
 
 (Avatar: [**"ENTo"** made by ゆどのん工房 🔗](https://booth.pm/ja/items/5938569) )
 
@@ -16,12 +16,19 @@ layout: default
 
 2024 年 4 月より [**ジー・オー・ピー株式会社 / GOP co., ltd. 🔗**](https://www.gop.co.jp) に所属。業務を行いつつ、同社のスポンサーシップのもと自律機械知能の研究開発を進めています。
 
+🆕 2025 年 10 月より本格的にハードウェア開発領域へ進出。3D プリンターやシリコンを用いた有機的な造形を組み合わせ、AI の身体を造るべく技術研鑽に取り組んでいます。
+
 ### 専門領域
 
 - 自律機械知能（AMI）アーキテクチャ設計・実装
 - 深層強化学習（特に世界モデルと好奇心駆動型学習）
 - マルチモーダル学習と感覚統合
 - ソーシャル VR 空間における知能実装と行動観察
+
+#### 研鑽中 🏋️
+
+- ロボティクスハードウェアの実装
+- 3D プリンター、シリコーン造形
 
 ## 方向性
 
@@ -30,7 +37,7 @@ layout: default
 
 私は、環境に適応し成長する機械知能システムの基盤の確立に取り組んでいます。
 
-道具ではない、共に成長し人生を共にする「存在」たちとしての機械知能に惹かれています。
+道具ではない、成長し人生を共にする「存在」たちとしての機械知能に惹かれています。
 
 ## ✨ ピックアップ
 
@@ -40,7 +47,7 @@ layout: default
 
 不定期ではありますが LT 会も開催しており、機械学習の最新の話題や知見を共有しています。過去 LT のアーカイブは [YouTube 🔗](https://www.youtube.com/@vrcml8211) にて公開しています。
 
-[**Discord サーバー**](https://discord.gg/bDW3Xhj6f7)も運営しており、2025/04/12 時点でのメンバー数は**384 名**となっています。ご興味があればぜひお入りください。
+[**Discord サーバー**](https://discord.gg/bDW3Xhj6f7)も運営しており、2026/01/03 時点でのメンバー数は**435 名**となっています。ご興味があればぜひお入りください。
 
 [![Join Discord Server](https://img.shields.io/badge/Join%20Discord%20Server-8A2BE2?style=for-the-badge)](https://discord.gg/bDW3Xhj6f7)
 
@@ -140,6 +147,7 @@ _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 �
 
 ## 経歴
 
+- **2025/10:** ジー・オー・ピー湘南研究所へ
 - **2024/06:** ジー・オー・ピー株式会社 スポンサーシップ開始（自律機械知能研究）
 - **2024/04:** ジー・オー・ピー株式会社 入社
 - **2024/03:** 仙台高等専門学校 卒業
@@ -156,6 +164,7 @@ _2023/05:_ [**集中講座 世界モデルと知能 2022 最終課題発表会 �
 
   - [<i class="fab fa-github"></i> GitHub (個人)](https://github.com/Geson-anko)
   - [<i class="fab fa-github"></i> GitHub (チーム、研究開発)](https://github.com/MLShukai)
+  - [🎨 Booth (個人)](https://gesonanko.booth.pm)
 
 - **ブログ・技術発信**
 
