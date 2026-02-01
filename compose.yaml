@@ -6,6 +6,7 @@ services:
     volumes:
       - .:/src
       - ~/.claude:/root/.claude
+      - ~/.gitconfig:/root/.gitconfig:ro
     command: server --bind 0.0.0.0 --buildDrafts --buildFuture
     stdin_open: true
     tty: true
