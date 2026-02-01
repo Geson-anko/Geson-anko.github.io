@@ -2,7 +2,7 @@
 
 # Install dependencies and setup pre-commit
 setup:
-    pip install pre-commit
+    pip install --break-system-packages pre-commit
     pre-commit install
     git submodule update --init --recursive
 
