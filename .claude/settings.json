@@ -28,7 +28,10 @@
       "Bash(pre-commit:*)",
       "Bash(npm:*)",
       "Bash(hugo version:*)",
-      "Bash(test:*)"
+      "Bash(test:*)",
+      "WebFetch(domain:blowfish.page)",
+      "Bash(SRC=images/icon.png)",
+      "Bash(sips:*)"
     ],
     "additionalDirectories": [
       "/Users/geson/Projects/Geson-anko.github.io/assets/pdfs"
