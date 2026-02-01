@@ -7,6 +7,12 @@ services:
       - .:/src
       - ~/.claude:/root/.claude
       - ~/.gitconfig:/root/.gitconfig:ro
+      - pre-commit-cache:/root/.cache/pre-commit
+      - pip-cache:/root/.cache/pip
     command: server --bind 0.0.0.0 --buildDrafts --buildFuture
     stdin_open: true
     tty: true
+
+volumes:
+  pre-commit-cache:
+  pip-cache:
