@@ -22,6 +22,10 @@ build:
 new path:
     docker compose run --rm hugo new content/{{path}}/index.md
 
+# Rebuild containers
+rebuild:
+    docker compose build --no-cache
+
 # Open shell in container
 shell:
     docker compose exec hugo sh

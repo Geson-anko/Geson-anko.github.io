@@ -4,7 +4,9 @@ RUN apk add --no-cache \
     tmux \
     nodejs \
     npm \
-    just
+    just \
+    python3 \
+    py3-pip
 
 RUN npm install -g @anthropic-ai/claude-code
 
