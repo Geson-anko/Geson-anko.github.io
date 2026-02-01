@@ -1,6 +1,6 @@
 {
   "permissions": {
-    "allowedTools": [
+    "allow": [
       "Bash(ls:*)",
       "Bash(cat:*)",
       "Bash(echo:*)",
@@ -26,7 +26,12 @@
       "Bash(prettier:*)",
       "Bash(npx prettier:*)",
       "Bash(pre-commit:*)",
-      "Bash(npm:*)"
+      "Bash(npm:*)",
+      "Bash(hugo version:*)",
+      "Bash(test:*)"
+    ],
+    "additionalDirectories": [
+      "/Users/geson/Projects/Geson-anko.github.io/assets/pdfs"
     ]
   }
 }
