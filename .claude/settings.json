@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allowedTools": [
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(echo:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(wc:*)",
+      "Bash(file:*)",
+      "Bash(stat:*)",
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(git show:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote:*)",
+      "Bash(git tag:*)",
+      "Bash(git blame:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(git submodule:*)",
+      "Bash(docker:*)",
+      "Bash(docker compose:*)",
+      "Bash(just:*)",
+      "Bash(hugo:*)",
+      "Bash(prettier:*)",
+      "Bash(npx prettier:*)",
+      "Bash(pre-commit:*)",
+      "Bash(npm:*)"
+    ]
+  }
+}
