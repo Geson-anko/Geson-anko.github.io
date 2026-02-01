@@ -1,4 +1,5 @@
 favicon = "images/icon.png"
+defaultOgImage = "images/thumbnail.png"
 colorScheme = "blowfish"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
