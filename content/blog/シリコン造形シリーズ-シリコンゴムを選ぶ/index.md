@@ -40,7 +40,18 @@ series_order: 1
 
 ### 二つの種類
 
-私はSANAAAなどの**プラチナ付加型シリコーン**と、信越シリコーンの**縮合型シリコーン**を扱ったことがあります。
+私はSANAAAなどの**プラチナ付加型シリコーン**と、ウェーブの**縮合型シリコーン**を扱ったことがあります。
+
+<div style="display: flex; gap: 1rem;">
+  <figure style="flex: 1; margin: 0;">
+    <img src="https://m.media-amazon.com/images/I/714sLcHxwaL._AC_SL1500_.jpg" alt="SANAAAのプラチナ付加型シリコーン" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">SANAAAのプラチナ付加型シリコーン</figcaption>
+  </figure>
+  <figure style="flex: 1; margin: 0;">
+    <img src="https://www.hobby-wave.com/wp-content/uploads/2017/10/01-144.jpg" alt="ウェーブの縮合型シリコーン" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">ウェーブの縮合型シリコーン</figcaption>
+  </figure>
+</div>
 
 | 種類           | メリット                                     | デメリット                             |
 | -------------- | -------------------------------------------- | -------------------------------------- |
@@ -82,6 +93,8 @@ series_order: 1
 参考: https://www.kyowakg.com/quality/kodo/
 
 様々なシリコーンゴムを触ってみたい方は上記のリンクからサンプルブックを買うと良いでしょう。
+
+![共和工業のサンプルブック](https://www.kyowakg.com/wp-content/uploads/2021/10/sample-book-978x1024.jpg)
 
 ### 仕入れ先
 
