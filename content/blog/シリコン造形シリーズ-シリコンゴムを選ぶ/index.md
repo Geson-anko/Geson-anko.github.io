@@ -1,5 +1,6 @@
 ---
 title: "シリコン造形シリーズ シリコンゴムを選ぶ"
+slug: "silicone-series-choosing-silicone-rubber"
 date: 2026-04-14
 draft: false
 description: "シリコーン造形シリーズ第1回。プラチナ付加型と縮合型の違い、硬度の選び方、仕入れ先を紹介します。"
