@@ -31,7 +31,9 @@
       "Bash(test:*)",
       "WebFetch(domain:blowfish.page)",
       "Bash(SRC=images/icon.png)",
-      "Bash(sips:*)"
+      "Bash(sips:*)",
+      "WebFetch(domain:*)",
+      "WebSearch(domain:*)"
     ],
     "additionalDirectories": [
       "/Users/geson/Projects/Geson-anko.github.io/assets/pdfs"
