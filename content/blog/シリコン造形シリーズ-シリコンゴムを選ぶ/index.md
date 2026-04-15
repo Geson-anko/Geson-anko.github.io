@@ -83,6 +83,21 @@ series_order: 1
 - **有機スズ化合物**：縮合型シリコーンの触媒残留物
 - **その他**：一部の3Dプリント樹脂（特にアクリル系レジン）
 
+#### 注目👀 縮合型に付加型を使うと？
+
+縮合型シリコーンで作った型にプラチナ付加型シリコーンを流し込むと、有機スズ化合物の残留により硬化不良が発生します。
+
+<div style="display: flex; gap: 1rem;">
+  <figure style="flex: 1; margin: 0;">
+    <img src="addition-to-condensation.png" alt="縮合型の型に付加型を流し込んだ様子" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">縮合型の型に付加型を流し込む</figcaption>
+  </figure>
+  <figure style="flex: 1; margin: 0;">
+    <img src="poor-curing.png" alt="硬化不良の例" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">硬化不良で表面がベタベタに</figcaption>
+  </figure>
+</div>
+
 対策として：
 
 - ニトリル手袋やビニール手袋を使用する
