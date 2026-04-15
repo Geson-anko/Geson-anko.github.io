@@ -10,6 +10,17 @@ series: ["シリコン造形シリーズ"]
 series_order: 1
 ---
 
+<div style="display: flex; gap: 1rem;">
+  <figure style="flex: 1; margin: 0;">
+    <img src="付加型.png" alt="プラチナ付加型シリコーン" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">プラチナ付加型シリコーン</figcaption>
+  </figure>
+  <figure style="flex: 1; margin: 0;">
+    <img src="縮合型.png" alt="縮合型シリコーン" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">縮合型シリコーン</figcaption>
+  </figure>
+</div>
+
 ## TL;DR
 
 - 造形用途には**プラチナ付加型シリコーン**がおすすめ（収縮率が低く、着色しやすい）
