@@ -1,6 +1,7 @@
 FROM hugomods/hugo:exts
 
 RUN apk add --no-cache \
+    git-lfs \
     bash \
     tmux \
     nodejs \
