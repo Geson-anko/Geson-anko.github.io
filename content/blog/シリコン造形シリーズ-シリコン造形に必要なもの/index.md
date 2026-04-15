@@ -1,163 +1,154 @@
 ---
 title: "シリコン造形シリーズ シリコン造形に必要なもの"
 slug: "silicone-series-what-you-need"
-date: { { .Date } }
+date: 2026-04-16
 draft: true
-description: ""
+description: "シリコーン造形シリーズ第2回。造形に必要な機材・資材を詳しく紹介します。"
 tags: ["シリコン", "造形", "素材"]
 categories: ["趣味"]
 series: ["シリコン造形シリーズ"]
 series_order: 2
 ---
 
-<!-- 執筆用メモ
-
-* シリコン造形に必要な材料や機材を列挙する。
-* オプションであると良いものはセクションを分けて書く
- -->
-
-<!-- 冒頭に必ず必要なものの写真を2x2のグリッドで配置？一覧で観れると良い -->
-
 ## TL;DR
+
+- 最低限必要：シリコーンゴム、樹脂型、プラスチックカップ、0.1g精度の秤、ニトリル手袋
+- 型作りには**3Dプリンター**が便利（樹脂型が作れる）
+- クオリティを上げるなら**真空脱泡器**がおすすめ
+- 硬化を早めるなら保温チャンバー付きの3Dプリンターが一石二鳥
 
 ## はじめに
 
 みなさんこんにちは、GesonAnkoです。
-シリコーン造形シリーズ第２弾は造形を始めるために必要なものについて書いていきます。
+シリコーン造形シリーズ第2弾では、造形を始めるために必要なものを紹介します。
 
-前回の記事（リンク）でも書きましたが、シリコーン造形はあまりやられている方が多くありません...
+[前回の記事](/blog/silicone-series-choosing-silicone-rubber/)でも触れましたが、シリコーン造形に取り組んでいる方はまだ多くありません。
 
-実際に私がシリコーン造形をやる上で必要なものを述べていくので、参考にしてくださると幸いです。
-あくまで **私が必要なもの** ですので、工夫次第でもっと簡単にできるかもしれません。
+この記事では、私がシリコーン造形をする上で必要だと感じたものを紹介します。あくまで**私の環境での話**ですので、工夫次第ではもっとシンプルに始められるかもしれません。
 
 ## 必要資材
 
 ### 最小限必要なもの
 
-- シリコンゴム（前回記事参照）
+- シリコーンゴム（[前回記事参照](/blog/silicone-series-choosing-silicone-rubber/)）
 - 造形物の型
 - プラスチックカップ、マドラー（使い捨て）
 - 0.1g精度で計量できる秤
 - ニトリルゴム手袋
 
-造形に最小限必要なものは前回の記事で紹介したシリコンゴムそのものと、 造形するための **型** となります。ただこの型を作るのがなかなか難しい、というのがハードルとしてあります。付加型シリコーンの硬化不良を起こさないというのがかなり大事な上に、 **シリコン型そのものでシリコンを作ろうとすると、そのまま一体化してしまいます**
+最低限必要なのは、前回の記事で紹介したシリコーンゴムと、造形するための**型**です。
 
-また柔らかい素材ですので、ある程度硬い素材で型を作る必要性もありますから、私の知る限りでは **3Dプリンター**で樹脂型を作ったりします。
-（金型でやる方法もありますが、趣味レベルではお金がかかりすぎて手が出ないでしょう）
+ただし、この型を作るのがなかなか難しいのがシリコーン造形のハードルです。付加型シリコーンは硬化不良を起こしやすいため、型の素材選びが重要になります。また、**シリコーン型にシリコーンを流し込むと、そのまま一体化してしまう**点にも注意が必要です。
 
-<!-- ここに樹脂型の画像をグリッド状に配置
+シリコーンは柔らかい素材なので、ある程度硬い素材で型を作る必要があります。
 
-content/blog/シリコン造形シリーズ-シリコン造形に必要なもの/mold-mimi-assembly.png
-content/blog/シリコン造形シリーズ-シリコン造形に必要なもの/mold-mimi-parts.png
-content/blog/シリコン造形シリーズ-シリコン造形に必要なもの/mold-nekonote.png
-content/blog/シリコン造形シリーズ-シリコン造形に必要なもの/mold-tentacle.png
--->
+私は**3Dプリンター**で樹脂型を作っています。（金型という選択肢もありますが、趣味レベルでは費用がかかりすぎるでしょう。）
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+  <figure style="margin: 0;">
+    <img src="mold-mimi-assembly.png" alt="みみ型（組み立て）" style="width: 100%; height: 200px; object-fit: contain;">
+    <figcaption style="text-align: center; font-size: 0.9em;">みみ型（組み立て）</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="mold-mimi-parts.png" alt="みみ型（パーツ）" style="width: 100%; height: 200px; object-fit: contain;">
+    <figcaption style="text-align: center; font-size: 0.9em;">みみ型（パーツ）</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="mold-nekonote.png" alt="猫の手型" style="width: 100%; height: 200px; object-fit: contain;">
+    <figcaption style="text-align: center; font-size: 0.9em;">猫の手型</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="mold-tentacle.png" alt="触手型" style="width: 100%; height: 200px; object-fit: contain;">
+    <figcaption style="text-align: center; font-size: 0.9em;">触手型</figcaption>
+  </figure>
+</div>
 
 ### 3Dプリンターで樹脂型を作る
 
-- 3D プリンター
-- フィラメントPLA
-- BlenderやFusionなど3DCGソフトが動くパソコン
+- 3Dプリンター
+- PLAフィラメント
+- BlenderやFusionなど、3DCGソフトが動くパソコン
 
-Blenderで樹脂型を設計する話はこれ一つでシリーズもののブログになってしまうので、ここでは割愛します。
-ぶっちゃけものを買うハードルもそうですし、樹脂型を設計するハードルもなかなかあるのでやはりやる方が少ないと思うんですよね... シリコン造形...
+Blenderで樹脂型を設計する方法は、それだけでシリーズ記事になるボリュームなので、ここでは割愛します。機材を揃えるハードルに加えて樹脂型の設計スキルも必要になるため、シリコーン造形は大変なのです...
 
-フィラメントの色はなんでも良いのですが、黒色だと後々の表面加工（やすりがけなど）で変化がわかりやすいです。あと安いです。
+フィラメントの色は何でも構いませんが、黒色だと表面加工（やすりがけなど）の変化がわかりやすく、価格も安いのでおすすめです。
 
-<!--
-3Dプリンター: 自分が持っているもの
-content/blog/シリコン造形シリーズ-シリコン造形に必要なもの/3d-printer-bambu-lab-a1.png
-content/blog/シリコン造形シリーズ-シリコン造形に必要なもの/3d-printer-bambu-lab-p2s.png
+<div style="display: flex; gap: 1rem;">
+  <figure style="flex: 1; margin: 0;">
+    <img src="3d-printer-bambu-lab-a1.png" alt="Bambu Lab A1" style="width: 100%; height: 250px; object-fit: contain;">
+    <figcaption style="text-align: center; font-size: 0.9em;">Bambu Lab A1</figcaption>
+  </figure>
+  <figure style="flex: 1; margin: 0;">
+    <img src="3d-printer-bambu-lab-p2s.png" alt="Bambu Lab P2S" style="width: 100%; height: 250px; object-fit: contain;">
+    <figcaption style="text-align: center; font-size: 0.9em;">Bambu Lab P2S</figcaption>
+  </figure>
+</div>
 
-樹脂型のサンプル画像:
-content/blog/シリコン造形シリーズ-シリコン造形に必要なもの/mold-mimi-parts.png
- -->
+#### 注目👀: Bambu Lab P2Sのチャンバー機能が便利
 
-#### 注目👀: Bambu Lab P2Sのチャンバー機能が良い
+シリコーンは温度に応じて硬化速度が変わります。温度が高いほど硬化が促進され、早く型から取り出せます。
 
-<!-- P2Sの画像を貼る -->
+P2Sの保温チャンバー機能を使えば、庫内の温度を30℃ほどに保てます。樹脂型の製作とシリコーンの硬化促進の両方に使えるので、製作サイクルを効率化できます。
 
-シリコンは温度に応じて硬化速度が変わります。
-暖かいほど硬化が促進され、早く型から取り出せます。
-
-P2Sの保温チャンバー機能を使うと、庫内の温度を暖かく（30℃ほど）に保つことができてとても良いですね。
-樹脂型も作れて製作サイクルも早められるP2Sは素晴らしいです。
-
-<!-- 画像を表示
-content/blog/シリコン造形シリーズ-シリコン造形に必要なもの/p2s-chamber.png
- -->
+<figure style="margin: 1rem 0;">
+  <img src="p2s-chamber.png" alt="P2Sのチャンバー内でシリコンを保温" style="width: 100%; max-width: 500px;">
+  <figcaption style="text-align: center; font-size: 0.9em;">P2Sのチャンバー内でシリコンを保温</figcaption>
+</figure>
 
 #### 実は重要⚠️: 型合わせの隙間を埋める
 
-シリコンはどろっとしていますがどんな隙間からも出ていきます。
-樹脂型の隙間を埋めるときは グルーガンを使いましょう。
-
-<!-- 画像: https://m.media-amazon.com/images/I/61IbpDzvLtL._AC_SL1500_.jpg -->
-
-https://amzn.asia/d/03nwGloD
-
-<!-- リンクは下にもまとめたいですね -->
+シリコーンは粘度がありますがわずかな隙間から漏れ出します。樹脂型のパーツ間の隙間はグルーガンで埋めておきましょう。
 
 ### オプション
 
-そのほか必ず必要ではないけどあると良いものを述べます
+ここからは必須ではありませんが、あると便利なものを紹介します。
 
 #### スポイト
 
-シリコンの量を正確に合わせるのに良いです
+シリコーンの計量を微調整するのに便利です。
 
 #### 着色剤
 
-スクイーズ用の着色剤を使うと硬化不良を起こしにくいとされているので良いです。
-最初AmazonのFUNSHOWCASEのものを購入しましたが https://amzn.asia/d/0a4oMvvc
-**まさるのNEWスクイーズレジン専用着色剤**は少ない量で高発色なので良いです。
-https://shop-green-ocean.com/?pid=184630173
+スクイーズ用の着色剤は、硬化不良を起こしにくいとされています。最初はAmazonのFUNSHOWCASEを購入しましたが、**まさるのNEWスクイーズレジン専用着色剤**は少量で高発色なのでおすすめです。
 
 #### ミキサー
 
-シリコンの量が多いとミキサーを使った方が良いです。数百RPMの低速回転のものを使いましょう。
+シリコーンの量が多い場合はミキサーを使うと効率的です。数百RPM程度の低速回転タイプを選びましょう。
 
-<!-- 画像: https://m.media-amazon.com/images/I/71TKIU1r0XL._AC_SL1500_.jpg -->
+#### 真空脱泡器
 
-https://amzn.asia/d/04I2sFr5
+気泡を除去するために使います。これがないと小さな泡が残り、仕上がりのクオリティが落ちます。
 
-#### 真空脱気チャンバー（真空脱泡器）
-
-気泡を除去するのに便利です。というかないと小さな泡が残ってクオリティが落ちます。
-
-<!-- 画像: https://m.media-amazon.com/images/I/61Ok5TvzRML._AC_SL1500_.jpg -->
-
-https://amzn.asia/d/0gFM0hSD
-
-ただ結構うるさいので、後日防音装置を自作した記事でも書きたいと思います
+ただし動作音がそこそこ大きい(60dBほど)ので、後日防音対策の記事も書きたいと思います。
 
 #### 洗浄剤
 
-近くのドラッグストアで無水エタノールを買ってくると良いと思います。樹脂型に残らなければ他にも洗浄液は使えると思います。
+ミキサーなどを洗浄するために使います。ドラッグストアで無水エタノールを購入するのが手軽です。樹脂型に残留しなければ、他の洗浄液でも問題ありません。
 
-ミキサーを洗ったりするのに使います。
-
-**絶対にゴム手袋、マスクをし、換気の良い場所で使いましょう\***
+**必ずゴム手袋・マスクを着用し、換気の良い場所で使用してください。**
 
 #### キムワイプ
 
-みんな大好きキムワイプ！樹脂型を拭く際に便利です。毛羽だたないので。
-これで鼻をかむと肌荒れします。
+みんな大好きキムワイプ。樹脂型を拭く際に便利です。毛羽立たないのがポイント。
+（鼻をかむと肌荒れするので注意）
 
-### 離型剤
+#### 離型剤
 
-正直あってもなくても良いなと思います。樹脂型であれば。
-ただあると実際に剥がしやすいきもしなくはないです。
-
-フッ素系を使いましょう。
-https://amzn.asia/d/0bl7uRMx
+樹脂型であれば正直なくても問題ありません。ただあった方が剥がしやすい気もします。使う場合はフッ素系を選びましょう。
 
 ### 物品リンク
 
-私が使っているもののリンクです。記載がないものはよしなにしてください。
+私が使っているもののリンクです。記載がないものはお好みで選んでください。
 
-- 精密電子はかり: https://amzn.asia/d/0bANlSBX
-- 3Dプリンター (リンクを追記)
-  - Bambu Lab A1
-  - Bambu Lab P2S
-  - PLAフィラメント: elegooの https://jp.elegoo.com/products/pla-basic-filament-1-75mm-colored-1kg
+- [精密電子はかり](https://amzn.asia/d/0bANlSBX)
+- 3Dプリンター
+  - [Bambu Lab A1](https://bambulab.com/ja-jp/a1)
+  - [Bambu Lab P2S](https://bambulab.com/ja-jp/p2s)
+- [PLAフィラメント（ELEGOO）](https://jp.elegoo.com/products/pla-basic-filament-1-75mm-colored-1kg)
+- [グルーガン](https://amzn.asia/d/03nwGloD)
+- 着色剤
+  - [FUNSHOWCASE](https://amzn.asia/d/0a4oMvvc)
+  - [まさるのNEWスクイーズレジン専用着色剤](https://shop-green-ocean.com/?pid=184630173)
+- [ミキサー](https://amzn.asia/d/04I2sFr5)
+- [真空脱泡器](https://amzn.asia/d/0gFM0hSD)
+- [離型剤（フッ素系）](https://amzn.asia/d/0bl7uRMx)
