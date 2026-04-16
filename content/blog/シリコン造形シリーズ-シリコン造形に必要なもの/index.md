@@ -2,7 +2,7 @@
 title: "シリコン造形シリーズ シリコン造形に必要なもの"
 slug: "silicone-series-what-you-need"
 date: 2026-04-16
-draft: true
+draft: false
 description: "シリコーン造形シリーズ第2回。造形に必要な機材・資材を詳しく紹介します。"
 tags: ["シリコン", "造形", "素材"]
 categories: ["趣味"]
