@@ -1,5 +1,5 @@
 ---
-title: "シリコン造形シリーズ：その２「シリコンゴムを選ぶ」"
+title: "シリコン造形シリーズ：その1 「シリコンゴムを選ぶ」"
 slug: "silicone-series-choosing-silicone-rubber"
 date: 2026-04-14
 draft: false

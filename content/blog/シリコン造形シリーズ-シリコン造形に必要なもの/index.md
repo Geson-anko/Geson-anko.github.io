@@ -1,5 +1,5 @@
 ---
-title: "シリコン造形シリーズ：その１「シリコン造形に必要なもの」"
+title: "シリコン造形シリーズ：その2 「シリコン造形に必要なもの」"
 slug: "silicone-series-what-you-need"
 date: 2026-04-16
 draft: false
