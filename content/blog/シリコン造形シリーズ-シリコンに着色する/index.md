@@ -67,11 +67,18 @@ series_order: 3
   <figcaption style="text-align: center; font-size: 0.9em;">シリコーンの計量</figcaption>
 </figure>
 
+6つ分を計量したものがこちらです。シリコーン自体は半透明の乳白色をしています。
+
+<figure style="margin: 1rem 0;">
+  <img src="silicone-weighing-all.png" alt="計量したシリコーン（着色前）" style="width: 100%; max-width: 600px;">
+  <figcaption style="text-align: center; font-size: 0.9em;">計量したシリコーン（着色前）</figcaption>
+</figure>
+
 これに対して、まさるのダリアを1滴・3滴・5滴、FUNSHOWCASEのフクシアも同様に追加して混ぜていきます。
 
 ### 着色
 
-着色して混ぜたものがこちらです。
+着色して混ぜたものがこちらです。（真空脱泡して気泡を消してあります。）
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
   <figure style="margin: 0;">
