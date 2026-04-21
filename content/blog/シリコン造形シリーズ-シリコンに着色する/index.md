@@ -1,102 +1,157 @@
 ---
 title: "シリコン造形シリーズ：その3 「シリコンに着色する」"
-slug: "silicone-coloring"
-date: { { .Date } }
+slug: "silicone-series-coloring"
+date: 2026-04-21
 draft: true
-description: ""
-tags: []
-categories: []
-series: []
+description: "シリコーン造形シリーズ第3回。着色剤の選び方と発色の比較を紹介します。"
+tags: ["シリコン", "造形", "着色"]
+categories: ["趣味"]
+series: ["シリコン造形シリーズ"]
 series_order: 3
 ---
 
-<!-- 執筆メモ
+## TL;DR
 
-シリコンゴムの着色についての記事を書く。
-
-1. SANAAAの10Aの半透明シリコーンゴムを使う
-2. 10ml (比重が1.08なので5.4gずつ、10.8gはかる)
-3. スクイーズレジン用着色材を入れる
-   1. まさる（隠れ工房GreenOcean） と FUN.SHOWCASEのやつがある。
-   2. この二つの色が近いもの、まさるのダリアとFUNSHOWCASEのフクシアを使ってみる
-   3. 濃さによって違いがどう出るか、1,3,5滴で試す
-4. 硬化後の写真を見せ、その変化を記述。若干透明度が下がる。
-
-あとで着色剤ケース自作したのでMakerWorld(プリントデータ)とBoothの販売ページ（プリント済品の販売）のリンクを書く（PlaceHolder)
-
-
-SANAAA 10Aのシリコンの画像とリンクはこれ
-https://m.media-amazon.com/images/I/719AvejNKvL._AC_SL1500_.jpg
-https://amzn.asia/d/0g7TMQ1h
- -->
-
-##　TL;DR
+- シリコーンの着色にはスクイーズレジン用着色剤を使う（硬化不良を避けるため）
+- 「まさる」は高発色、「FUNSHOWCASE」は色数が豊富
+- 10mLあたり5滴で十分に発色する（まさるの場合）
+- 硬化後は若干不透明度が増す
 
 ## はじめに
 
-みなさんこんにちは、げそんです。
-今回はシリコーンゴムに着色していく工程をご紹介しましょう。
+みなさんこんにちは、GesonAnkoです。
+今回はシリコーンゴムに着色する工程を紹介します。
 
 シリコーンの着色剤は硬化不良を避けるために少し注意が必要です。
-一般的なレジンの着色剤を用いても問題ない場合もありますが、できればスクイーズレジン向けのものを使うと良いでしょう（第１回で紹介した硬化不良を起こす成分が混入していない可能性が高い）
+一般的なレジンの着色剤でも問題ない場合もありますが、できればスクイーズレジン向けのものを使うとよいでしょう（[第1回](/blog/silicone-series-choosing-silicone-rubber/)で紹介した硬化不良を起こす成分が混入していない可能性が高いため）。
 
-第２回の記事でも紹介した、まさるのスクイーズレジン専用着色剤と、FUNSHOWCASEの着色剤二つを今回は試していきます。
+[第2回](/blog/silicone-series-what-you-need/)でも紹介した「まさる」のスクイーズレジン専用着色剤と、「FUNSHOWCASE」の着色剤を今回は試していきます。
 
-<!-- color-masaruとcolor-funshowcaseを配置 -->
-<!-- 着色剤ケースのアフィリエイト（現在はプレースホルダー）
+<div style="display: flex; gap: 1rem;">
+  <figure style="flex: 1; margin: 0;">
+    <img src="color-masaru.png" alt="まさるのスクイーズレジン専用着色剤" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">まさるのスクイーズレジン専用着色剤</figcaption>
+  </figure>
+  <figure style="flex: 1; margin: 0;">
+    <img src="color-funshowcase.png" alt="FUNSHOWCASEの着色剤" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">FUNSHOWCASEの着色剤</figcaption>
+  </figure>
+</div>
 
-着色剤ってたくさんあると必要なものを一目で見つけられなくて困ったなあ、ということで着色剤ケースは自作しています。
+### 着色剤ケースについて
 
-3Dプリンターのお持ちの方はご自宅で印刷できますし、印刷済のものをBOOTHに置いてありますのでそちらをご確認ください。
+着色剤がたくさんあると、必要な色を一目で見つけられなくて困りますよね。そこで着色剤ケースを自作しました。
 
-BOOTHとMakeworldのリンク
--->
+3Dプリンターをお持ちの方はご自宅で印刷できます。印刷済みのものはBOOTHで販売していますので、そちらもご確認ください。
+
+- [MakerWorld（プリントデータ）](#) ※準備中
+- [BOOTH（印刷済み商品）](#) ※準備中
 
 ## 着色工程
 
-今後この知見をわかりやすくするために、10mLあたりの液滴数として着色していきます。
+今後の知見をわかりやすくするために、**10mLあたりの液滴数**で着色していきます。
 
-使用するシリコーンはSANAAAの10A、まさるは「ダリア」、FUNSHOWCASEは「フクシア」を使います。
+使用するシリコーンはSANAAAの10A。着色剤は「まさる」の「ダリア」と「FUNSHOWCASE」の「フクシア」を使います。
 
-<!-- ここに画像を配置 -->
+<figure style="margin: 1rem 0;">
+  <img src="daria-and-fuchsia.png" alt="まさるのダリアとFUNSHOWCASEのフクシア" style="width: 100%; max-width: 500px;">
+  <figcaption style="text-align: center; font-size: 0.9em;">左：まさるのダリア、右：FUNSHOWCASEのフクシア</figcaption>
+</figure>
 
 ### 準備
 
-10Aのシリコーンの比重は1.08g/mlなので、A剤とB剤をそれぞれ5.4gずつ使って10.8g計量すると、10mLになります。
+10Aシリコーンの比重は1.08g/mLなので、A剤とB剤をそれぞれ5.4gずつ計量すると合計10.8g、つまり10mLになります。
 
-<!-- ここに計量の画像を配置 -->
+<figure style="margin: 1rem 0;">
+  <img src="silicone-weighing.png" alt="シリコーンの計量" style="width: 100%; max-width: 500px;">
+  <figcaption style="text-align: center; font-size: 0.9em;">シリコーンの計量</figcaption>
+</figure>
 
-これらに対して、まさるのダリアを1,3,5滴、FUNSHOWCASEも同様に追加して、混ぜていきましょう
+これに対して、まさるのダリアを1滴・3滴・5滴、FUNSHOWCASEのフクシアも同様に追加して混ぜていきます。
 
 ### 着色
 
-着色して混ぜたものがこちらになります
+着色して混ぜたものがこちらです。
 
-<!-- 硬化前の全ての画像を配置 -->
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
+  <figure style="margin: 0;">
+    <img src="before-cure-masaru-daria-1.png" alt="まさる ダリア 1滴" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">まさる 1滴</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="before-cure-masaru-daria-3.png" alt="まさる ダリア 3滴" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">まさる 3滴</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="before-cure-masaru-daria-5.png" alt="まさる ダリア 5滴" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">まさる 5滴</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="before-cure-funshowcase-fuchsia-1.png" alt="FUNSHOWCASE フクシア 1滴" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">FUNSHOWCASE 1滴</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="before-cure-funshowcase-fuchsia-3.png" alt="FUNSHOWCASE フクシア 3滴" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">FUNSHOWCASE 3滴</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="before-cure-funshowcase-fuchsia-5.png" alt="FUNSHOWCASE フクシア 5滴" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">FUNSHOWCASE 5滴</figcaption>
+  </figure>
+</div>
 
-やはりまさるの方が高発色ですね。肌感覚では1.5倍くらい強く発色している気がします。
+やはり「まさる」の方が高発色ですね。体感では1.5倍くらい強く発色している印象です。
 
 ### 硬化後
 
-硬化後がこちらになります。
+硬化後がこちらです。
 
-<!-- 硬化後の画像を全て配置 -->
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
+  <figure style="margin: 0;">
+    <img src="after-cure-masaru-daria-1.png" alt="まさる ダリア 1滴（硬化後）" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">まさる 1滴</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="after-cure-masaru-daria-3.png" alt="まさる ダリア 3滴（硬化後）" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">まさる 3滴</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="after-cure-masaru-daria-5.png" alt="まさる ダリア 5滴（硬化後）" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">まさる 5滴</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="after-cure-funshowcase-fuchsia-1.png" alt="FUNSHOWCASE フクシア 1滴（硬化後）" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">FUNSHOWCASE 1滴</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="after-cure-funshowcase-fuchsia-3.png" alt="FUNSHOWCASE フクシア 3滴（硬化後）" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">FUNSHOWCASE 3滴</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="after-cure-funshowcase-fuchsia-5.png" alt="FUNSHOWCASE フクシア 5滴（硬化後）" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em;">FUNSHOWCASE 5滴</figcaption>
+  </figure>
+</div>
 
 硬化すると少し不透明度が増します。
 
-まさるのシリコーンでは10mLあたり5滴で十分に不透明になります。
-FUNSHOWCASEでは7~8滴くらいが良いでしょう。
+「まさる」では10mLあたり5滴で十分に不透明になります。
+「FUNSHOWCASE」では7〜8滴くらいがちょうどよさそうです。
 
-## 最後に
+## まとめ
 
-そもそもシリコーン自体が半透明な液体ですので、透明に着色するというのは難しいですね。
-まさるの方が高発色ではあるものの、FUNSHOWCASEの方がさまざまな色が揃っておりそれぞれに良いところがあるでしょう。
-まさるの方が単色で買えるので補充が聞きやすくて良いですね
+シリコーン自体が半透明な液体なので、透明感を保ったまま着色するのは難しいですね。
+
+「まさる」の方が高発色ではあるものの、「FUNSHOWCASE」の方がさまざまな色が揃っており、それぞれによいところがあります。
+「まさる」は単色で購入できるので補充がききやすいのも利点です。
 
 ### 商品リンク
 
-- [FUNSHOWCASE](https://amzn.asia/d/054l63v8)
-- [まさる](https://shop-green-ocean.com/?pid=184630173)
+- シリコーンゴム
+  - [SANAAA 10A](https://amzn.asia/d/0g7TMQ1h)
+- 着色剤
+  - [FUNSHOWCASE](https://amzn.asia/d/054l63v8)
+  - [まさる](https://shop-green-ocean.com/?pid=184630173)
 - 着色剤ケース
-  - データ
-  - 商品
+  - [MakerWorld（プリントデータ）](#) ※準備中
+  - [BOOTH（印刷済み商品）](#) ※準備中
