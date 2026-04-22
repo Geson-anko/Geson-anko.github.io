@@ -1,8 +1,8 @@
 ---
 title: "シリコン造形シリーズ：その3 「シリコンに着色する」"
 slug: "silicone-series-coloring"
-date: 2026-04-21
-draft: true
+date: 2026-04-22
+draft: false
 description: "シリコーン造形シリーズ第3回。着色剤の選び方と発色の比較を紹介します。"
 tags: ["シリコン", "造形", "着色"]
 categories: ["趣味"]
