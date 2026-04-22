@@ -44,7 +44,7 @@ series_order: 3
 
 3Dプリンターをお持ちの方はご自宅で印刷できます。印刷済みのものはBOOTHで販売していますので、そちらもご確認ください。
 
-- [MakerWorld（プリントデータ）](#) ※準備中
+- [MakerWorld（プリントデータ）](https://makerworld.com/ja/models/2697431-colorant-bottle-case#profileId-2989821)
 - [BOOTH（印刷済み商品）](#) ※準備中
 
 ## 着色工程
@@ -160,5 +160,5 @@ series_order: 3
   - [FUNSHOWCASE](https://amzn.asia/d/054l63v8)
   - [まさる](https://shop-green-ocean.com/?pid=184630173)
 - 着色剤ケース
-  - [MakerWorld（プリントデータ）](#) ※準備中
+  - [MakerWorld（プリントデータ）](https://makerworld.com/ja/models/2697431-colorant-bottle-case#profileId-2989821)
   - [BOOTH（印刷済み商品）](#) ※準備中
