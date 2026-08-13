@@ -54,6 +54,7 @@ Codexの複数 `exec_command` は、同じorchestration call内で `Promise.all`
 - 1エージェントにつき具体的で境界の明確な責務を1つ割り当てる。
 - 書き込みを伴う場合は所有するファイルまたはディレクトリを明示し、他エージェントの変更をrevertしないよう伝える。
 - shared filesystemを前提に、同じファイルを複数エージェントへ割り当てない。
+- 書き込みを主作業ツリーから完全に隔離する必要がある場合は `$do-on-worktree` を使う。
 - 読み取り調査、レビュー、ログ分析は並列化しやすい。書き込み作業はconflictコストを考慮する。
 - collaboration toolは直接呼び出し、`functions.exec` 内から呼ばない。
 - runtimeのconcurrency上限を超えない。親エージェントは結果の統合と最終検証を担当する。

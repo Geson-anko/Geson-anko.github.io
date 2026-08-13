@@ -59,6 +59,7 @@
 ## Parallel work
 
 - 独立した複数処理では `$maximize-parallels` に従い、読み取りや検証を安全な範囲で並列化する。
+- 主作業ツリーを保持したまま隔離したサブタスクを実行する場合は `$do-on-worktree` を使う。
 - サブエージェントは、ユーザーが並列作業を依頼した場合、または適用中のスキルが明示的に要求する場合にのみ使う。
 - 並列編集ではファイル所有範囲を重複させず、親エージェントが結果と検証を統合する。
 - 利用可能なカスタムエージェントは `implementation-planner`、`code-implementer`、`code-refactorer`、`project-documenter`。各エージェントの責務外へ変更を広げない。
