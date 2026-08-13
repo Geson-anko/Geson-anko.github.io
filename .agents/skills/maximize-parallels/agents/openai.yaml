@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maximize Safe Parallelism"
+  short_description: "独立したツール処理とサブタスクを安全かつ効率的に並列化する"
+  default_prompt: "$maximize-parallels を使って独立した作業を安全に並列実行してください。"

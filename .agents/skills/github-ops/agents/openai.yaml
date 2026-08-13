@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Operations"
+  short_description: "GitHub CLIでブランチ、PR、Issueを安全に操作する"
+  default_prompt: "$github-ops を使って現在のブランチから安全にPRを作成してください。"

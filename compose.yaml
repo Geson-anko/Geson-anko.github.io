@@ -5,7 +5,8 @@ services:
       - "1313:1313"
     volumes:
       - .:/src
-      - ~/.claude:/root/.claude
+      - ~/.codex:/root/.codex
+      - ~/.config/gh:/root/.config/gh:ro
       - ~/.gitconfig:/root/.gitconfig:ro
       - pre-commit-cache:/root/.cache/pre-commit
       - pip-cache:/root/.cache/pip
