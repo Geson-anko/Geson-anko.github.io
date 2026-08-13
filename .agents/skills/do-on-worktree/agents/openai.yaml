@@ -1,0 +1,4 @@
+interface:
+  display_name: "Isolated Worktree Tasks"
+  short_description: "Git worktreeで主作業を妨げずサブタスクを安全に実行する"
+  default_prompt: "$do-on-worktree を使って、主作業ツリーから隔離したworktreeでサブタスクを実行してください。"

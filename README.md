@@ -20,6 +20,8 @@ just setup
 
 http://localhost:1313 でプレビューできます。
 
+`just codex` はホストの `~/.codex` と `~/.config/gh` をコンテナへ共有します。GitHub 操作を行う場合は、あらかじめホストで `gh auth login` を完了してください。
+
 ## コマンド一覧
 
 | コマンド                | 説明                                      |
@@ -31,7 +33,7 @@ http://localhost:1313 でプレビューできます。
 | `just new blog/my-post` | 新規記事作成                              |
 | `just shell`            | コンテナ内シェル                          |
 | `just tmux`             | コンテナ内 tmux                           |
-| `just claude`           | コンテナ内 Claude Code                    |
+| `just codex`            | コンテナ内 Codex CLI                      |
 | `just format`           | Prettier でフォーマット                   |
 | `just lint`             | pre-commit 全ファイルチェック             |
 | `just setup`            | pre-commit インストール＆submodule 初期化 |

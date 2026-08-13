@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sync Main Before PR"
+  short_description: "PR作成前に最新のorigin/mainを安全に取り込む"
+  default_prompt: "$merge-main を使ってPR作成前に最新のmainを作業ブランチへ取り込んでください。"
