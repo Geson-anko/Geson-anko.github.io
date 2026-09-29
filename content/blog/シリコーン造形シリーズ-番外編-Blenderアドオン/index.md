@@ -17,8 +17,8 @@ series_order: 4
 
 ## TL;DR
 
-- シリコーン造形用の**樹脂型をBlender上で作るアドオン「Silicone Casting」**を公開しました
-- マスターモデルから、壁付け・分割・ダボ・空気孔・STL出力までをサイドバーから操作できる
+- シリコーン造形用の **樹脂型をBlender上で作るアドオン「Silicone Casting」** を公開しました
+- マスターモデルから、壁付け・分割・ダボ・空気孔・STL出力を備える
 - 体積の計測、A剤・B剤の配合計算、着色剤の滴数から色を予測する機能もある
 - Blender 5.1以上で動作。[GitHub](https://github.com/Geson-anko/silicone-casting)から無料でダウンロードできる
 
@@ -30,9 +30,37 @@ series_order: 4
 [第2回](/blog/silicone-series-what-you-need/)で「Blenderで樹脂型を設計する方法はそれだけでシリーズ記事になるボリューム」と書きましたが、実際に型を作るたびに同じ手作業を繰り返すのが大変でした。
 マスターモデルに厚みを付けて、割って、合わせ位置を作って、空気の逃げ道を開けて...という作業を毎回手でやるのは骨が折れます。
 
-そこで、この一連の作業をまとめてBlenderのアドオンにしました。
+そこで、この一連の作業をやりやすくするBlenderのアドオンを作りました。
 
 - [GitHub: Geson-anko/silicone-casting](https://github.com/Geson-anko/silicone-casting)
+
+## インストール方法
+
+### Blenderのインストール
+
+アドオンを使うには、まずBlender本体が必要です。動作要件は **Blender 5.1以上**（Windows / macOS / Linux）です。
+
+[Blender公式サイトのダウンロードページ](https://www.blender.org/download/)から、お使いのOS向けのインストーラーをダウンロードしてインストールしてください。Blenderは無料で使えます。
+
+Blenderの基本操作（視点の回し方、オブジェクトの選択、Object ModeとEdit Modeの切り替えなど）はここでは割愛します。YouTubeや解説サイトにチュートリアルがたくさんあるので、探してみてください。
+
+### アドオンのインストール
+
+1. [GitHubのReleasesページ](https://github.com/Geson-anko/silicone-casting/releases)から `silicone_casting-<バージョン>.zip` をダウンロードする（**zipは解凍しない**）
+2. Blenderで **Edit > Preferences** を開き、左の一覧から **Get Extensions** を選ぶ
+3. 右上の **∨** メニューから **Install from Disk...** を選び、ダウンロードしたzipを指定する
+
+<figure style="margin: 1rem 0;">
+  <img src="install-extension.png" alt="Preferences の Get Extensions から Install from Disk を選ぶ画面" style="width: 100%;">
+  <figcaption style="text-align: center; font-size: 0.9em;">Install from Disk... からインストール</figcaption>
+</figure>
+
+インストール後は、3D Viewportで **N** キーを押してサイドバーを開き、**Silicone Casting** タブを選ぶと使えます。
+
+<figure style="margin: 1rem 0;">
+  <img src="sidebar-tab.png" alt="3D Viewport のサイドバーに表示された Silicone Casting タブ" style="width: 100%;">
+  <figcaption style="text-align: center; font-size: 0.9em;">サイドバーの Silicone Casting タブ</figcaption>
+</figure>
 
 ## Silicone Casting でできること
 
@@ -77,9 +105,9 @@ series_order: 4
 [第3回](/blog/silicone-series-coloring/)では「10Aシリコーンの比重は1.08g/mLなので、A剤とB剤をそれぞれ5.4gずつ計量すると10mL」と手計算していましたが、Density（密度）に1.08、Ratio（重量比）に1:1を入れておけば自動で計算されます。
 パーツごとに行を分けられるので、複数の型に一度に流し込むときも便利です。
 
-#### 実は重要⚠️: 壁を測ると樹脂の量になる
+#### 実は重要⚠️: 壁を測ると型自身の体積になる
 
-Solidifyで壁を付けたオブジェクトを測ると、**壁だけの体積**（＝印刷する樹脂の量）が出ます。シリコーンの量を測るときは、マスターを選び直してから計測しましょう。
+Solidifyで壁を付けたオブジェクトを測ると、**壁だけの体積** が出ます。シリコーンの量を測るときは、マスターを選び直してから計測しましょう。
 
 ### 着色シミュレーション
 
@@ -141,40 +169,11 @@ Solidifyで壁を付けたオブジェクトを測ると、**壁だけの体積*
 
 切断面や空気孔の管、Booleanに使ったオブジェクトはシーンに残ります。**A** キーで全選択してから書き出すと、それらもSTLに混ざってしまいます。書き出すパーツだけを選んでからExport STLを押しましょう。
 
-## インストール方法
-
-動作要件は **Blender 5.1以上**（Windows / macOS / Linux）です。
-
-1. [GitHubのReleasesページ](https://github.com/Geson-anko/silicone-casting/releases)から `silicone_casting-<バージョン>.zip` をダウンロードする（**zipは解凍しない**）
-2. Blenderで **Edit > Preferences** を開き、左の一覧から **Get Extensions** を選ぶ
-3. 右上の **∨** メニューから **Install from Disk...** を選び、ダウンロードしたzipを指定する
-
-<figure style="margin: 1rem 0;">
-  <img src="install-extension.png" alt="Preferences の Get Extensions から Install from Disk を選ぶ画面" style="width: 100%;">
-  <figcaption style="text-align: center; font-size: 0.9em;">Install from Disk... からインストール</figcaption>
-</figure>
-
-インストール後は、3D Viewportで **N** キーを押してサイドバーを開き、**Silicone Casting** タブを選ぶと使えます。
-
-<figure style="margin: 1rem 0;">
-  <img src="sidebar-tab.png" alt="3D Viewport のサイドバーに表示された Silicone Casting タブ" style="width: 100%;">
-  <figcaption style="text-align: center; font-size: 0.9em;">サイドバーの Silicone Casting タブ</figcaption>
-</figure>
-
 各機能の詳しい使い方は、リポジトリの[docs](https://github.com/Geson-anko/silicone-casting/tree/main/docs)にまとめています。
 
 ## まとめ
 
 [第2回](/blog/silicone-series-what-you-need/)で、シリコーン造形は機材に加えて樹脂型の設計スキルも必要になるのがハードルだと書きました。
-このアドオンで、少しでもそのハードルが下がればうれしいです。
+このアドオンで、少しでもそのハードルが下がれば嬉しいです。
 
 まだ v0.1.0 なので、不具合や要望があれば [GitHubのIssue](https://github.com/Geson-anko/silicone-casting/issues) で教えてください。
-
-### リンク
-
-- [Silicone Casting（GitHub）](https://github.com/Geson-anko/silicone-casting)
-- [Releases（ダウンロード）](https://github.com/Geson-anko/silicone-casting/releases)
-- シリコーン造形シリーズ
-  - [その1 「シリコーンゴムを選ぶ」](/blog/silicone-series-choosing-silicone-rubber/)
-  - [その2 「シリコーン造形に必要なもの」](/blog/silicone-series-what-you-need/)
-  - [その3 「シリコーンに着色する」](/blog/silicone-series-coloring/)
