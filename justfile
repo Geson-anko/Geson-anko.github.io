@@ -40,6 +40,11 @@ tmux:
 claude:
     docker compose exec hugo claude
 
+# Launch Blender GUI with the MCP server (usage: just blender [file.blend])
+[positional-arguments]
+blender *file:
+    blender "$@" --python tools/launch_blender.py
+
 # Format files with Prettier
 format:
     npx prettier --write "content/**/*.md" "config/**/*.toml" "**/*.yaml" "**/*.json"

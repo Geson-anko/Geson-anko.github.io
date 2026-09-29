@@ -37,6 +37,7 @@ http://localhost:1313 でプレビューできます。
 | `just format`           | Prettier でフォーマット                   |
 | `just lint`             | pre-commit 全ファイルチェック             |
 | `just setup`            | pre-commit インストール＆submodule 初期化 |
+| `just blender`          | Blender を MCP サーバー付きで起動         |
 
 ## 記事の書き方
 

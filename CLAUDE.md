@@ -41,11 +41,13 @@
 - `.claude/skills/`: タスク発火型のClaude Codeプロジェクトスキル。
 - `.claude/agents/`: カスタムサブエージェント。
 - `.claude/settings.json`: Claude Codeのプロジェクト設定。
+- `.mcp.json` と `tools/launch_blender.py`: Blender MCPの設定と起動スクリプト。
 
 ## Workflow
 
 - 既存の `justfile` を作業コマンドの正本として使う。
 - 開発サーバーは `just up`、本番ビルドは `just build`、新規記事は `just new blog/<slug>` で操作する。
+- Blenderを操作して記事用の画像を撮る場合は `/blender-mcp` に従い、`just blender` で起動する。
 - Markdown、TOML、YAML、JSON の変更後は、変更ファイルを対象にPrettierまたはpre-commitを実行する。
 - サイトの表示や設定に影響する変更後は、出力先を一時ディレクトリへ変更したHugo本番ビルドで検証する。Dockerを利用できない場合は未実施として報告する。
 

@@ -33,5 +33,6 @@
       "WebFetch",
       "WebSearch"
     ]
-  }
+  },
+  "enabledMcpjsonServers": ["blender"]
 }
