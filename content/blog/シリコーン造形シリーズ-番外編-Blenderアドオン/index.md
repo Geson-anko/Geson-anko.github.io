@@ -1,5 +1,5 @@
 ---
-title: "シリコーン造形シリーズ：番外編 「樹脂型を作るBlenderアドオンを作った」"
+title: "シリコーン造形シリーズ：番外編 「Blenderアドオンを作った」"
 slug: "silicone-series-blender-addon"
 date: 2026-09-29
 draft: false
