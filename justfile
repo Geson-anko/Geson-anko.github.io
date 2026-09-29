@@ -36,9 +36,9 @@ shell:
 tmux:
     docker compose exec hugo tmux
 
-# Run Codex CLI in container
-codex:
-    docker compose exec hugo codex
+# Run Claude Code in container
+claude:
+    docker compose exec hugo claude
 
 # Format files with Prettier
 format:

@@ -13,7 +13,7 @@ RUN apk add --no-cache \
     py3-pip \
     lazygit
 
-RUN npm install -g @openai/codex
+RUN npm install -g @anthropic-ai/claude-code
 
 WORKDIR /src
 EXPOSE 1313

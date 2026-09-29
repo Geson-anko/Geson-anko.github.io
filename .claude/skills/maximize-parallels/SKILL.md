@@ -35,7 +35,7 @@ description: 複数の独立したファイル読み取り、検索、コマン�
 - 相互に書き込まない `git status`、`git log`、設定検査。
 - 出力先やcacheを共有しない独立したテスト。
 
-Codexの複数 `exec_command` は、同じorchestration call内で `Promise.all` を使って並列化できる。各commandの `workdir` を明示し、`cd` による暗黙の状態共有を避ける。
+Claude Codeでは、独立したtool callを1つのresponse内にまとめて発行すると並列実行される。Bashでは絶対pathや `git -C <path>` を使い、`cd` による暗黙の状態共有を避ける。
 
 次は逐次実行する。
 
@@ -45,7 +45,7 @@ Codexの複数 `exec_command` は、同じorchestration call内で `Promise.all`
 - 同じCompose project、container、port、出力先を使うDockerまたはE2E操作。
 - 同じformatterやbuild cacheへ書き込む可能性がある検証。
 
-`web__run`のように単独実行が要求されるtoolは他のtoolと並列にしない。tool固有の説明を常に優先する。
+単独実行が要求されるtoolは他のtoolと並列にしない。tool固有の説明を常に優先する。
 
 ## Use subagents selectively
 
@@ -54,10 +54,10 @@ Codexの複数 `exec_command` は、同じorchestration call内で `Promise.all`
 - 1エージェントにつき具体的で境界の明確な責務を1つ割り当てる。
 - 書き込みを伴う場合は所有するファイルまたはディレクトリを明示し、他エージェントの変更をrevertしないよう伝える。
 - shared filesystemを前提に、同じファイルを複数エージェントへ割り当てない。
-- 書き込みを主作業ツリーから完全に隔離する必要がある場合は `$do-on-worktree` を使う。
+- 書き込みを主作業ツリーから完全に隔離する必要がある場合は `/do-on-worktree` を使う。
 - 読み取り調査、レビュー、ログ分析は並列化しやすい。書き込み作業はconflictコストを考慮する。
-- collaboration toolは直接呼び出し、`functions.exec` 内から呼ばない。
-- runtimeのconcurrency上限を超えない。親エージェントは結果の統合と最終検証を担当する。
+- サブエージェントはAgent toolで起動し、独立したものは1つのresponse内でまとめて起動する。
+- 同時に起動するサブエージェントは4つまでを目安にする。親エージェントは結果の統合と最終検証を担当する。
 
 このリポジトリでは、計画を `implementation-planner`、実装を `code-implementer`、挙動不変の整理を `code-refactorer`、文書作業を `project-documenter` に割り当てる。工程に依存がある場合は、計画、実装、リファクタ、文書化の順序を保つ。
 
