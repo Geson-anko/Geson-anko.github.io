@@ -38,8 +38,9 @@
 - `static/`: そのまま配信する画像や PDF。
 - `themes/blowfish/`: Git submodule。明示的に依頼されない限りテーマ本体を変更しない。
 - `public/` と `resources/`: 生成物。直接編集しない。
-- `.agents/skills/`: タスク発火型のCodex共有スキル。
-- `.codex/`: プロジェクト設定とカスタムエージェント。
+- `.claude/skills/`: タスク発火型のClaude Codeプロジェクトスキル。
+- `.claude/agents/`: カスタムサブエージェント。
+- `.claude/settings.json`: Claude Codeのプロジェクト設定。
 
 ## Workflow
 
@@ -50,16 +51,16 @@
 
 ## Git workflow
 
-- `main` に直接commitまたはpushしない。作業ブランチは `main` から `codex/<種別>/<YYYYMMDD>/<slug>` 形式で作成する。
+- `main` に直接commitまたはpushしない。作業ブランチは `main` から `claude/<種別>/<YYYYMMDD>/<slug>` 形式で作成する。
 - 種別は `feature`、`fix`、`refactor`、`docs`、`chore` を使う。
 - commitメッセージは `<type>(<scope>): <description>` を基本とする。scopeは `content`、`config`、`theme`、`ci`、`docs`、`tooling` など変更範囲を表す語にする。
 - force-push、PRのmerge/close、release作成、repository設定変更は、ユーザーの明示的な依頼なしに実行しない。
-- push、PR、Issue操作には `$github-ops`、PR前のmain同期には `$merge-main` を使う。
+- push、PR、Issue操作には `/github-ops`、PR前のmain同期には `/merge-main` を使う。
 
 ## Parallel work
 
-- 独立した複数処理では `$maximize-parallels` に従い、読み取りや検証を安全な範囲で並列化する。
-- 主作業ツリーを保持したまま隔離したサブタスクを実行する場合は `$do-on-worktree` を使う。
+- 独立した複数処理では `/maximize-parallels` に従い、読み取りや検証を安全な範囲で並列化する。
+- 主作業ツリーを保持したまま隔離したサブタスクを実行する場合は `/do-on-worktree` を使う。
 - サブエージェントは、ユーザーが並列作業を依頼した場合、または適用中のスキルが明示的に要求する場合にのみ使う。
 - 並列編集ではファイル所有範囲を重複させず、親エージェントが結果と検証を統合する。
 - 利用可能なカスタムエージェントは `implementation-planner`、`code-implementer`、`code-refactorer`、`project-documenter`。各エージェントの責務外へ変更を広げない。

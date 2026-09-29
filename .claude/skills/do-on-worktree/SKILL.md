@@ -1,6 +1,6 @@
 ---
 name: do-on-worktree
-description: Git worktreeを使って主作業ツリーのbranch・index・未コミット変更を動かさず、隔離した作業ディレクトリと専用`codex/` branchでサブタスクを実行する。worktreeでの作業、メイン作業を邪魔しない並行作業、隔離したサブタスク、別worktreeへのエージェント委譲を依頼されたときに使う。
+description: Git worktreeを使って主作業ツリーのbranch・index・未コミット変更を動かさず、隔離した作業ディレクトリと専用`claude/` branchでサブタスクを実行する。worktreeでの作業、メイン作業を邪魔しない並行作業、隔離したサブタスク、別worktreeへのエージェント委譲を依頼されたときに使う。
 ---
 
 # Run a subtask in an isolated worktree
@@ -9,8 +9,9 @@ description: Git worktreeを使って主作業ツリーのbranch・index・未�
 
 ## Choose the worktree mode
 
-- ChatGPTデスクトップアプリで独立chatを開始できる場合は、組み込みの **Worktree** を優先する。作業をLocalへ移すときは **Hand off** を使う。
-- 現在のthreadからサブエージェントへ委譲する場合は、親エージェントが手動Git worktreeを作成し、サブエージェントへ絶対pathを渡す。
+- branch名や基点を指定する必要がないサブエージェント委譲では、Agent toolの `isolation: "worktree"` を優先する。変更が無ければworktreeは自動でcleanupされる。
+- 現在のsession自体を隔離worktreeへ移す場合は `EnterWorktree` を使い、戻るときは `ExitWorktree` を使う。
+- branch名・基点・保持方針を制御する必要がある委譲では、親エージェントが手動Git worktreeを作成し、サブエージェントへ絶対pathを渡す。
 - 読み取り専用の短い調査にはworktreeを作らず、通常のsubagentまたは並列tool callで十分か先に判断する。
 
 ## Protect the primary worktree
@@ -20,7 +21,7 @@ description: Git worktreeを使って主作業ツリーのbranch・index・未�
 - primaryに未コミット変更があっても、自動でstashまたはcommitしない。
 - 手動worktreeはcommit済みrefを基点にする。primaryの未コミット変更がサブタスクに必要なら停止し、基点の作り方をユーザーへ確認する。
 - 同じbranchを複数worktreeへcheckoutしない。各サブタスクに固有branchと固有pathを割り当てる。
-- ignored file、secret、dependency directory、build cacheを無断でcopyしない。アプリ管理worktreeで必要なignored fileだけを共有するときは、内容を確認して `.worktreeinclude` を使う。
+- ignored file、secret、dependency directory、build cacheを無断でcopyしない。
 
 ## Inspect before creation
 
@@ -34,7 +35,7 @@ git status --short
 git worktree list --porcelain
 ```
 
-基点はユーザー指定ref、指定がなければ現在の `HEAD` commitにする。編集を伴うサブタスクのbranchは `codex/worktree/<YYYYMMDD>/<slug>` とし、local branchと既存worktreeで未使用か確認する。
+基点はユーザー指定ref、指定がなければ現在の `HEAD` commitにする。編集を伴うサブタスクのbranchは `claude/worktree/<YYYYMMDD>/<slug>` とし、local branchと既存worktreeで未使用か確認する。
 
 ## Create a manual worktree
 
@@ -43,7 +44,7 @@ git worktree list --porcelain
 3. 編集を伴う場合は専用branchで追加する。
 
    ```bash
-   git worktree add -b codex/worktree/<YYYYMMDD>/<slug> <absolute-worktree-path> <base-ref>
+   git worktree add -b claude/worktree/<YYYYMMDD>/<slug> <absolute-worktree-path> <base-ref>
    ```
 
 4. 読み取り・検証だけでbranchが不要な場合はdetached worktreeを使う。
@@ -75,13 +76,13 @@ git -C <absolute-worktree-path> submodule update --init --recursive
 - worktreeの絶対pathと専用branch
 - 具体的な目的、成功条件、検証command
 - 所有するfileまたはdirectory
-- すべてのcommandでworktree pathを `workdir` として使うこと
+- すべてのBash commandでworktreeの絶対pathまたは `git -C <path>` を使い、Read/Edit/Writeにもworktree内の絶対pathを渡すこと
 - primary worktreeへ移動・編集しないこと
 - 他エージェントの変更をrevertしないこと
 - worktreeのremove、branchのdelete、primaryへの統合を行わないこと
 - 最後に変更file、検証結果、未解決事項、commitの有無を返すこと
 
-サブエージェントのdefault cwdがprimaryを指す可能性を前提にし、prompt内のpathだけでなく各tool callの `workdir` も確認する。書き込みタスクには明確な所有範囲を割り当て、同じfileを複数エージェントへ渡さない。
+サブエージェントのdefault cwdがprimaryを指す可能性を前提にし、prompt内のpathだけでなく各tool callの対象pathも確認する。書き込みタスクには明確な所有範囲を割り当て、同じfileを複数エージェントへ渡さない。
 
 ## Review the isolated result
 
@@ -100,7 +101,7 @@ git -C <absolute-worktree-path> log -5 --oneline
 
 ## Integrate or preserve the result
 
-- アプリ管理worktreeからLocalへ移す場合は **Hand off** を優先する。
+- Agent toolの `isolation: "worktree"` で変更が残った場合は、返されたworktree pathとbranchを手動worktreeと同様に扱う。
 - 手動worktreeの変更を統合する場合は、まずworktree側で検証済みcommitを作成し、そのcommit hashを報告する。
 - primaryへのcherry-pickまたはmergeは明示的に依頼された場合だけ行う。primaryに未コミット変更がある場合は先に競合リスクを報告する。
 - 同じbranchをprimaryでcheckoutしたい場合は、先にworktree側をdetached HEADまたは別branchへ移すか、worktreeを安全にremoveする。

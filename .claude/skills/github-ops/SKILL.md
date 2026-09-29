@@ -10,7 +10,7 @@ GitHubへの読み書きを、リポジトリのGit規約とユーザーの承�
 ## Guardrails
 
 - 読み取り、push、PR作成、Issue更新など、ユーザーが依頼した操作だけを行う。
-- `main`へ直接pushしない。作業ブランチには `codex/` prefixを使う。
+- `main`へ直接pushしない。作業ブランチには `claude/` prefixを使う。
 - `git push --force`を使わない。`--force-with-lease`も、ユーザーが履歴書き換えを明示的に依頼し、安全性を確認できる場合に限る。
 - PRのmerge/close、release作成、repository設定変更、secret操作は明示的な依頼なしに行わない。
 - token、`.env`の内容、認証ファイルを出力・commit・PR本文へ掲載しない。
@@ -28,14 +28,14 @@ git branch --show-current
 git status --short
 ```
 
-コンテナ内のCodexは、ホストからread-onlyで共有された `~/.config/gh` を使う。認証が無い、期限切れ、またはscope不足の場合は、tokenを要求せず、ユーザーにホスト側で `gh auth login` を実行してもらう。
+コンテナ内のClaude Codeは、ホストからread-onlyで共有された `~/.config/gh` を使う。認証が無い、期限切れ、またはscope不足の場合は、tokenを要求せず、ユーザーにホスト側で `gh auth login` を実行してもらう。
 
 ## Prepare and push a branch
 
 現在地が `main` で、ユーザーが変更のcommitまたはpushを依頼した場合は、`main`から作業ブランチを作る。
 
 ```bash
-git switch -c codex/<type>/<YYYYMMDD>/<short-slug> main
+git switch -c claude/<type>/<YYYYMMDD>/<short-slug> main
 ```
 
 push前に対象commitと差分を確認する。
@@ -51,7 +51,7 @@ git diff --stat origin/main...HEAD
 git push -u origin HEAD
 ```
 
-2回目以降は `git push` を使う。remoteから拒否された場合はforceせず、`$merge-main` で最新の `origin/main` を取り込む。
+2回目以降は `git push` を使う。remoteから拒否された場合はforceせず、`/merge-main` で最新の `origin/main` を取り込む。
 
 ## Create a pull request
 
