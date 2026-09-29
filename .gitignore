@@ -4,3 +4,6 @@ resources/
 node_modules/
 .env
 .DS_Store
+
+# Blender backups
+*.blend[0-9]*
