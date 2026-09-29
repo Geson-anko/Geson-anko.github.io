@@ -1,12 +1,12 @@
 ---
-title: "シリコン造形シリーズ：その2 「シリコン造形に必要なもの」"
+title: "シリコーン造形シリーズ：その2 「シリコーン造形に必要なもの」"
 slug: "silicone-series-what-you-need"
 date: 2026-04-16
 draft: false
 description: "シリコーン造形シリーズ第2回。造形に必要な機材・資材を詳しく紹介します。"
-tags: ["シリコン", "造形", "素材"]
+tags: ["シリコーン", "造形", "素材"]
 categories: ["趣味"]
-series: ["シリコン造形シリーズ"]
+series: ["シリコーン造形シリーズ"]
 series_order: 2
 ---
 
@@ -93,8 +93,8 @@ Blenderで樹脂型を設計する方法はそれだけでシリーズ記事に�
 P2Sの保温チャンバー機能を使えば、庫内の温度を30℃ほどに保てます。樹脂型の製作とシリコーンの硬化促進の両方に使えるので、製作サイクルを効率化できます。
 
 <figure style="margin: 1rem 0;">
-  <img src="p2s-chamber.png" alt="P2Sのチャンバー内でシリコンを保温" style="width: 100%; max-width: 500px;">
-  <figcaption style="text-align: center; font-size: 0.9em;">P2Sのチャンバー内でシリコンを保温</figcaption>
+  <img src="p2s-chamber.png" alt="P2Sのチャンバー内でシリコーンを保温" style="width: 100%; max-width: 500px;">
+  <figcaption style="text-align: center; font-size: 0.9em;">P2Sのチャンバー内でシリコーンを保温</figcaption>
 </figure>
 
 #### 実は重要⚠️: 型合わせの隙間を埋める
@@ -106,8 +106,8 @@ P2Sの保温チャンバー機能を使えば、庫内の温度を30℃ほどに
 一応アイデアだけ書いておきます。
 
 - クッキー型にプラ板を貼り付ければできるかも
-- プラスチック製の製氷皿（シリコン性だとくっつくので注意！）
-- シリコン性の型でも白色ワセリン塗ればいけるかも...
+- プラスチック製の製氷皿（シリコーン性だとくっつくので注意！）
+- シリコーン性の型でも白色ワセリン塗ればいけるかも...
 
 ### オプション
 
