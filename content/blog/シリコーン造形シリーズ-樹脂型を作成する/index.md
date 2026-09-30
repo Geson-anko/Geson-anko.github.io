@@ -155,7 +155,14 @@ Targetにサブディビジョンサーフェスを追加して球を滑らか�
 
 ## 印刷結果
 
-<!-- 印刷後の写真を追加する -->
+印刷した型がこちらです。
+
+<figure style="margin: 1rem 0;">
+  <img src="printed-mold.png" alt="PLAで印刷した左右の樹脂型。注ぎ口と球の空洞が見える" style="width: 100%;">
+  <figcaption style="text-align: center; font-size: 0.9em;">印刷した樹脂型</figcaption>
+</figure>
+
+注ぎ口から球の空洞までつながった、左右の型を印刷できました。
 
 ## まとめ
 
