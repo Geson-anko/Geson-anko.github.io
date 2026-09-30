@@ -35,7 +35,7 @@ series_order: 6
   <figcaption style="text-align: center; font-size: 0.9em;">左右を合わせた型</figcaption>
 </figure>
 
-合わせたら、合わせ目に沿ってグルーガンで固定します。
+合わせたら、合わせ目に沿って[グルーガン][glue-gun]で固定します。
 このとき、隙間が残らないように気をつけてください。ここが甘いと、流し込んだあとにシリコーンが漏れ出て大惨事になります。
 
 <div style="display: flex; gap: 1rem;">
@@ -65,6 +65,7 @@ series_order: 6
 
 実際に混ぜるときはカップや注ぎ口にも残るので、その分として **Extra** に5mLほど追加しておきます。
 **Mixture Calculator** に密度と配合比を入れると、A剤・B剤それぞれの重さが分かります。今回は合計9.12mL、A剤・B剤ともに4.92gです。
+この計算結果は、前回配布した[サンプル型.blend][sample-blend]に保存してあります。
 
 <figure style="margin: 1rem 0;">
   <img src="volume-calc.png" alt="Measure VolumeとMixture Calculatorで体積と重さを計算した画面" style="width: 100%;">
@@ -73,9 +74,9 @@ series_order: 6
 
 ### 用意するもの
 
-シリコーンは今回、[SANAAAの5A](https://amzn.asia/d/0fYC0FIt)を使いました。硬度の選び方は[第1回](/blog/silicone-series-choosing-silicone-rubber/)を参照してください。
+シリコーンは今回、[SANAAAの5A][sanaaa-5a]を使いました。硬度の選び方は[第1回](/blog/silicone-series-choosing-silicone-rubber/)を参照してください。
 
-そのほか、ニトリル手袋、マドラー、30mLのカップを用意します（写真には誤って60mLのカップが写っています）。
+そのほか、ニトリル手袋、マドラー、30mLのカップ、[0.1g精度の秤][scale]を用意します（写真には誤って60mLのカップが写っています）。
 
 <figure style="margin: 1rem 0;">
   <img src="tools.png" alt="ニトリル手袋、カップ、マドラー、型、SANAAAのシリコーン" style="width: 100%;">
@@ -85,7 +86,7 @@ series_order: 6
 ### 混ぜて脱泡する
 
 A剤とB剤をそれぞれ4.92gずつ計量し、マドラーでよく混ぜます。
-混ぜたあと、[真空脱泡器](/blog/silicone-series-what-you-need/)にかけて気泡を抜いたものがこちらです。
+混ぜたあと、[真空脱泡器][vacuum]にかけて気泡を抜いたものがこちらです。
 
 <figure style="margin: 1rem 0;">
   <img src="mixed-silicone.png" alt="混ぜて脱泡したシリコーン" style="width: 100%; max-width: 500px;">
@@ -102,7 +103,7 @@ A剤とB剤をそれぞれ4.92gずつ計量し、マドラーでよく混ぜま�
 </figure>
 
 室温で硬化させる場合、冬なら丸1日、夏なら3〜4時間ほどで型から取り出せます。
-私は[テスコムのコンベクションオーブン](https://www.tescom-japan.co.jp/products/tsf61a)を使い、40度で4時間加熱しています。
+私は[テスコムのコンベクションオーブン][oven]を使い、40度で4時間加熱しています。
 
 ## 取り出して仕上げる
 
@@ -111,7 +112,7 @@ A剤とB剤をそれぞれ4.92gずつ計量し、マドラーでよく混ぜま�
 <!-- 画像：型を開けて取り出したところ -->
 
 注ぎ口や合わせ面の部分にバリができるので、ニッパーや小バサミで切り取ります。
-私は[Cloverのカットワークはさみ115](https://onlineshop.clover.co.jp/products/detail/61)を愛用しています。
+私は[Cloverのカットワークはさみ115][scissors]を愛用しています。
 
 <!-- 画像：バリ取り -->
 
@@ -125,3 +126,20 @@ A剤とB剤をそれぞれ4.92gずつ計量し、マドラーでよく混ぜま�
 
 前回作った型にシリコーンを流し込み、シリコーンボールを造形しました。
 型の固定で隙間を残さないことと、体積から必要な量を計算して少し多めに計量することが、失敗を減らすポイントです。
+
+### 商品リンク
+
+- シリコーンゴム：[SANAAA 5A][sanaaa-5a]
+- [グルーガン][glue-gun]
+- [精密電子はかり][scale]
+- [真空脱泡器][vacuum]
+- [テスコム コンベクションオーブン][oven]
+- [Clover カットワークはさみ115][scissors]
+
+[sample-blend]: /blog/silicone-series-making-mold/サンプル型.blend
+[sanaaa-5a]: https://amzn.asia/d/0fYC0FIt
+[glue-gun]: https://amzn.asia/d/03nwGloD
+[scale]: https://amzn.asia/d/0bANlSBX
+[vacuum]: https://amzn.asia/d/0gFM0hSD
+[oven]: https://www.tescom-japan.co.jp/products/tsf61a
+[scissors]: https://onlineshop.clover.co.jp/products/detail/61
