@@ -1,9 +1,9 @@
 ---
-title: "シリコーン造形シリーズ：その4 「樹脂型を作成する」"
-slug: "silicone-series-making-resin-mold"
+title: "シリコーン造形シリーズ：その4 「型を作成する」"
+slug: "silicone-series-making-mold"
 date: 2026-09-30
 draft: false
-description: "シリコーン造形シリーズ第4回。Blenderアドオン「Silicone Casting」を使って、シリコーンボール用の樹脂型を作ります。"
+description: "シリコーン造形シリーズ第4回。Blenderアドオン「Silicone Casting」を使って、シリコーンボール用の型を作ります。"
 tags: ["シリコーン", "造形", "Blender", "3Dプリンター"]
 categories: ["趣味"]
 series: ["シリコーン造形シリーズ"]
@@ -12,7 +12,7 @@ series_order: 5
 
 ## TL;DR
 
-- [番外編](/blog/silicone-series-blender-addon/)で紹介したBlenderアドオン「Silicone Casting」で、**直径20mmほどのシリコーンボール用の樹脂型** を作った
+- [番外編](/blog/silicone-series-blender-addon/)で紹介したBlenderアドオン「Silicone Casting」で、**直径20mmほどのシリコーンボール用の型** を作った
 - 流れは「マスターに壁を付ける → 注ぎ口と穴をBooleanで加工 → 型を割る → ダボを付ける → STL出力」
 - 操作の細かい流れは動画にまとめたので、記事では各工程のポイントを紹介する
 - 完成品のBlender・STL・スライサーのファイルも配布している
@@ -20,8 +20,8 @@ series_order: 5
 ## はじめに
 
 みなさんこんにちは、GesonAnkoです。
-[前回の番外編](/blog/silicone-series-blender-addon/)で、Blenderで樹脂型を作りやすくするためのアドオンを作成しました。
-今回はそれを使って、実際に樹脂型を作っていきます。
+[前回の番外編](/blog/silicone-series-blender-addon/)で、Blenderで型を作りやすくするためのアドオンを作成しました。
+今回はそれを使って、実際に型を作っていきます。
 
 今回作るのは、直径20mmほどのシリコーンボールの型です。
 球は形が単純なので、型づくりの流れを一通り確認するのにちょうどよい題材です。
@@ -53,7 +53,7 @@ series_order: 5
 
 最後に型を左右2つに割り、ダボで位置合わせできるようにします。
 
-## 樹脂型を作る
+## 型を作る
 
 ### 1. マスターと台座を作る
 
@@ -158,13 +158,13 @@ Targetにサブディビジョンサーフェスを追加して球を滑らか�
 印刷した型がこちらです。
 
 <figure style="margin: 1rem 0;">
-  <img src="printed-mold.png" alt="PLAで印刷した左右の樹脂型。注ぎ口と球の空洞が見える" style="width: 100%;">
-  <figcaption style="text-align: center; font-size: 0.9em;">印刷した樹脂型</figcaption>
+  <img src="printed-mold.png" alt="PLAで印刷した左右の型。注ぎ口と球の空洞が見える" style="width: 100%;">
+  <figcaption style="text-align: center; font-size: 0.9em;">印刷した型</figcaption>
 </figure>
 
 注ぎ口から球の空洞までつながった、左右の型を印刷できました。
 
 ## まとめ
 
-アドオンを使って、シリコーンボール用の樹脂型を作りました。
+アドオンを使って、シリコーンボール用の型を作りました。
 マスターに壁を付けて、注ぎ口と穴を足して、割ってダボを付ける、という流れは他の形でも同じなので、まずは球のような単純な形で試してみるのがおすすめです。
