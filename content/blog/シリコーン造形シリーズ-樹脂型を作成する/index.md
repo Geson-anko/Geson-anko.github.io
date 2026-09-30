@@ -146,7 +146,7 @@ Targetにサブディビジョンサーフェスを追加して球を滑らか�
 ## スライスする
 
 書き出したSTLをBambu Studioに読み込み、Bambu Lab P2SとPLA Basicで印刷します。
-型の内側の面はそのままシリコーンの表面になるので、積層痕を目立たせないよう積層ピッチ0.08mmの **0.08mm High Quality** で印刷しました。
+型の内側の面はそのままシリコーンの表面になるので、積層痕を目立たせないよう積層ピッチ **0.08mm High Quality** で印刷しました。
 
 <figure style="margin: 1rem 0;">
   <img src="slicer.png" alt="Bambu Studioに左右の型を並べた画面" style="width: 100%;">
