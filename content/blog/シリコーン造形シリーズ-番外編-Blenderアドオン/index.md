@@ -93,9 +93,9 @@ Blenderの基本操作（視点の回し方、オブジェクトの選択、Obje
 
 ### 体積の計測と配合計算
 
-**Measure Volume** で選択したメッシュの体積をmL単位で計測できます。マスターの体積＝型の空洞の体積なので、これがそのまま必要なシリコーンの量になります。
+**Measure Volume** で選択したメッシュの体積をmL単位で計測できます。マスターの体積＝型の空洞の体積なので、この体積がそのまま必要なシリコーンの量になります。
 
-**Mixture Calculator** に体積を入力すると、A剤・B剤それぞれの体積と重量を計算してくれます。
+**Mixture Calculator** に体積を入力すると、A剤・B剤それぞれの体積と重量を計算できます。
 
 <figure style="margin: 1rem 0;">
   <img src="mixture-calculator.png" alt="Mixture Calculator の画面" style="width: 100%;">
@@ -150,7 +150,7 @@ Solidifyで壁を付けたオブジェクトを測ると、**壁だけの体積*
   <figcaption style="text-align: center; font-size: 0.9em;">Registration Keys でダボを配置する</figcaption>
 </figure>
 
-円柱・先細り・角形の3種類から選べます。穴はピンより少し大きく作られるので（既定では片側0.15mm）、3Dプリントしてもはめ込みやすくなっています。
+円柱・先細り・角形の3種類から選べます。穴はピンより少し大きく作られるので（初期設定では片側0.15mm）、3Dプリントしてもはめ込みやすくなっています。
 
 ### 空気孔を開ける（Air Vents）
 
