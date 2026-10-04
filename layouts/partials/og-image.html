@@ -1,0 +1,51 @@
+{{- /* ページタイトルを描画した 1200x630 の OGP 画像を返す */ -}}
+{{- $title := .Title | default site.Params.author.name -}}
+{{- $maxWidth := 30 -}}
+{{- $maxLines := 3 -}}
+
+{{- /* 半角を1、全角を2として幅を数え、空白位置を優先して1行 $maxWidth 以内に折り返す */ -}}
+{{- $lines := slice -}}
+{{- $cur := "" -}}
+{{- range split $title " " -}}
+  {{- $candidate := cond (eq $cur "") . (printf "%s %s" $cur .) -}}
+  {{- if le (partial "inline/text-width" $candidate) $maxWidth -}}
+    {{- $cur = $candidate -}}
+  {{- else -}}
+    {{- with $cur }}{{ $lines = $lines | append . }}{{ end -}}
+    {{- $cur = "" -}}
+    {{- range split . "" -}}
+      {{- if gt (partial "inline/text-width" (printf "%s%s" $cur .)) $maxWidth -}}
+        {{- $lines = $lines | append $cur -}}
+        {{- $cur = "" -}}
+      {{- end -}}
+      {{- $cur = printf "%s%s" $cur . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with $cur }}{{ $lines = $lines | append . }}{{ end -}}
+{{- if gt (len $lines) $maxLines -}}
+  {{- $last := index $lines (sub $maxLines 1) -}}
+  {{- $lines = first (sub $maxLines 1) $lines | append (printf "%s…" $last) -}}
+{{- end -}}
+
+{{- $font := resources.Get "fonts/BIZUDPGothic-Bold.ttf" -}}
+{{- $size := 72 -}}
+{{- $spacing := 24 -}}
+{{- $blockHeight := sub (mul (len $lines) (add $size $spacing)) $spacing -}}
+{{- $titleY := sub 270 (div $blockHeight 2) -}}
+{{- $icon := (resources.Get "images/icon.png").Fill "96x96 Center" -}}
+
+{{- $filters := slice
+  (images.Text (delimit $lines "\n") (dict "font" $font "size" $size "linespacing" $spacing "color" "#f8fafc" "x" 80 "y" $titleY))
+  (images.Overlay $icon 80 494)
+  (images.Text site.Params.author.name (dict "font" $font "size" 36 "color" "#f8fafc" "x" 200 "y" 504))
+  (images.Text (strings.TrimSuffix "/" (strings.TrimPrefix "https://" site.BaseURL)) (dict "font" $font "size" 24 "color" "#94a3b8" "x" 200 "y" 552))
+-}}
+{{- $img := (resources.Get "images/og-base.png").Filter $filters -}}
+{{- return $img -}}
+
+{{- define "partials/inline/text-width" -}}
+  {{- $width := 0 -}}
+  {{- range split . "" }}{{ $width = add $width (cond (eq (len .) 1) 1 2) }}{{ end -}}
+  {{- return $width -}}
+{{- end -}}
